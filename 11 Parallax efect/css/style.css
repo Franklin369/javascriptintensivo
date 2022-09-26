@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.banner .container {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(#9cdcff, #1cafff);
+}
+.banner .container #scene {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.banner .container #scene #text {
+  display: flex !important;
+  position: relative;
+  color: #fff;
+  font-size: 14vw;
+  z-index: 100;
+}
+.banner .container #scene #text span {
+  position: relative !important;
+  display: inline-block;
+  text-shadow: 1px 1px 0 #e1e1e1, 2px 2px 0 #e1e1e1, 3px 3px 0 #e1e1e1, 4px 4px 0 #e1e1e1, 5px 5px 0 #e1e1e1, 6px 6px 0 #e1e1e1, 7px 7px 0 #e1e1e1, 8px 8px 0 #e1e1e1, 25px 35px 0px rgba(0, 0, 0, 0.1);
+}
+.banner .container #scene .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.banner .container #scene .layer:nth-child(5) {
+  z-index: 1;
+}
+.banner .container #scene .layer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.banner .container #scene .layer.z {
+  z-index: 101;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,406 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap";
+:root {
+  --main-color: #f7c110;
+  --main-color-dark: #fa5514;
+  --ray-color: #f5de11;
+  --spark-color: #f59f1f;
+  --back-color: #111111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: var(--back-color);
+}
+
+main {
+  transition: 0.8s;
+  background: #000522;
+}
+main section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.8s;
+}
+main section:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(to top, #000522, transparent);
+  z-index: 1;
+}
+main section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  pointer-events: none;
+}
+main section .personaje {
+  top: 43%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main section #text {
+  position: relative;
+  color: #fff;
+  font-size: 10vw;
+}
+main .sec {
+  position: relative;
+  min-height: 500px;
+  padding: 100px;
+}
+main .sec .content {
+  position: relative;
+  z-index: 2;
+}
+main .sec .content h2 {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  color: #20496a;
+}
+main .sec .content p {
+  font-size: 1.2em;
+  color: #f5f7f8;
+}
+
+/*loading*/
+#lastray {
+  margin: auto;
+  border-radius: 100%;
+  border: 0px solid;
+  border-color: var(--ray-color);
+  opacity: 1;
+  width: 0px;
+  height: 0px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+#loading-page {
+  background: var(--back-color);
+  border-radius: 100%;
+  top: 50%;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  width: 400vh;
+  height: 400vh;
+  position: fixed;
+  overflow: hidden;
+  transition-duration: 1s;
+  z-index: 1000;
+}
+
+#loader {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  max-width: 200px;
+  position: absolute;
+  max-height: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.element {
+  margin: auto;
+  position: absolute;
+}
+
+.sphere {
+  background: radial-gradient(circle, var(--main-color), var(--main-color-dark));
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  -webkit-animation: pump 4s infinite ease-in-out;
+          animation: pump 4s infinite ease-in-out;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  box-shadow: 0px 0px 15px 0px rgba(200, 230, 255, 0.5);
+}
+
+.ray {
+  margin: auto;
+  border-radius: 100%;
+  border: 5px solid;
+  border-color: var(--ray-color);
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  -webkit-animation: ray 4s infinite ease-out;
+          animation: ray 4s infinite ease-out;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  box-shadow: 0px 0px 15px 0px rgba(255, 230, 200, 0.5);
+}
+
+.spark {
+  width: 200px;
+  height: 200px;
+}
+
+.particles {
+  transform: translate(-50%, -50%);
+}
+
+.particle {
+  background-color: var(--spark-color);
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-animation: particle 1s infinite ease-in;
+          animation: particle 1s infinite ease-in;
+  left: 0%;
+  top: 0%;
+}
+
+.spark1 {
+  transform: rotate(20deg);
+}
+
+.spark2 {
+  transform: rotate(40deg);
+}
+
+.spark3 {
+  transform: rotate(66deg);
+}
+
+.spark4 {
+  transform: rotate(172deg);
+}
+
+.spark5 {
+  transform: rotate(110deg);
+}
+
+.spark6 {
+  transform: rotate(130deg);
+}
+
+.spark7 {
+  transform: rotate(-100deg);
+}
+
+.spark8 {
+  transform: rotate(-50deg);
+}
+
+.spark9 {
+  transform: rotate(-80deg);
+}
+
+.spark10 {
+  transform: rotate(-173deg);
+}
+
+.spark11 {
+  transform: rotate(-7deg);
+}
+
+.spark12 {
+  transform: rotate(-133deg);
+}
+
+.particle1 {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.particle2 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.particle3 {
+  -webkit-animation-delay: 2.2s;
+          animation-delay: 2.2s;
+}
+
+.particle4 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.particle5 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.particle6 {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+.particle7 {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+.particle8 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+.particle9 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.particle10 {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+.particle11 {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.particle12 {
+  -webkit-animation-delay: 1.7s;
+          animation-delay: 1.7s;
+}
+
+.loaded {
+  width: 0px !important;
+  height: 0px !important;
+  transition: 1.2s ease-out;
+}
+
+.whitebk {
+  background: #fff !important;
+}
+
+.opzero {
+  opacity: 0;
+  transition: 1s ease-out;
+}
+
+.finalray {
+  -webkit-animation: ray 2s ease-out;
+          animation: ray 2s ease-out;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  border: 1px solid;
+}
+
+/*ANIMATIONS*/
+@-webkit-keyframes pump {
+  0% {
+    width: 50px;
+    height: 50px;
+  }
+  83% {
+    width: 88px;
+    height: 88px;
+  }
+  85% {
+    width: 90px;
+    height: 90px;
+  }
+  100% {
+    width: 50px;
+    height: 50px;
+  }
+}
+@keyframes pump {
+  0% {
+    width: 50px;
+    height: 50px;
+  }
+  83% {
+    width: 88px;
+    height: 88px;
+  }
+  85% {
+    width: 90px;
+    height: 90px;
+  }
+  100% {
+    width: 50px;
+    height: 50px;
+  }
+}
+@-webkit-keyframes ray {
+  0% {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+    border-width: 1px;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    border-width: 5px;
+  }
+}
+@keyframes ray {
+  0% {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+    border-width: 1px;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    border-width: 5px;
+  }
+}
+@-webkit-keyframes particle {
+  0% {
+    left: 0%;
+    top: 0%;
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    left: 50%;
+    top: 50%;
+    opacity: 1;
+  }
+}
+@keyframes particle {
+  0% {
+    left: 0%;
+    top: 0%;
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    left: 50%;
+    top: 50%;
+    opacity: 1;
+  }
+}/*# sourceMappingURL=style.css.map */

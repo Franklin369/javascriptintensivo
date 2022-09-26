@@ -1,0 +1,15 @@
+body{
+    padding:0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F9CB3A;
+    cursor: url(./cursor.svg),auto;
+    transition: 0.5s;
+}
+svg{
+    width: 200px;
+}

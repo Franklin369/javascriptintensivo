@@ -1,0 +1,2372 @@
+[
+    {
+      "sha": "a58b48c961cb391b8646bf072b6620a0c9f3d999",
+      "node_id": "C_kwDNS-7aAChhNThiNDhjOTYxY2IzOTFiODY0NmJmMDcyYjY2MjBhMGM5ZjNkOTk5",
+      "commit": {
+        "author": {
+          "name": "Hiroaki Yutani",
+          "email": "yutani.ini@gmail.com",
+          "date": "2022-08-25T08:54:23Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-25T08:54:23Z"
+        },
+        "message": "Improve the error message of fortify.default() (#4963)",
+        "tree": {
+          "sha": "748f04b0aa395724dec81482f59f8a6e4105e13d",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/748f04b0aa395724dec81482f59f8a6e4105e13d"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/a58b48c961cb391b8646bf072b6620a0c9f3d999",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBzi/CRBK7hj4Ov3rIwAALZcIAKRh2jsElq+/Jlva3FlJfwyB\nwRjykdJAHyUsDNpiZ7udWf7UeG10poTAfH8//b6WMOq67oyRVCLsaBuDXBAW7Gdg\nirkpGgNLmyZ7/FutBm9Vr81cPCvkHZbjqWQOGaMV9x5hINp6JKvOcl28/dnFSRr7\nw7z0UwgrC3gSOxSs1xhhMz8p8k5FBGh+umRYx5q9Ykt+q0BH9URO8WBlkxqduuYQ\nZswkKQWz+e7NNETL7XMZYYRUeTPWL+GH6AOMZ3tWMX/8pF75BPOdTduMyMCpyoDf\nQeX/CB4PXhE5u/TW/5PR3k+Mr5AoYSpt7pEZMZmmeRnyrDKR+WhdtYJ6L5GQdOU=\n=C6gO\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 748f04b0aa395724dec81482f59f8a6e4105e13d\nparent a383fdbfafa3f640e3e298757e014d61751a113a\nauthor Hiroaki Yutani <yutani.ini@gmail.com> 1661417663 +0900\ncommitter GitHub <noreply@github.com> 1661417663 +0200\n\nImprove the error message of fortify.default() (#4963)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/a58b48c961cb391b8646bf072b6620a0c9f3d999",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/a58b48c961cb391b8646bf072b6620a0c9f3d999",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/a58b48c961cb391b8646bf072b6620a0c9f3d999/comments",
+      "author": {
+        "login": "yutannihilation",
+        "id": 1978793,
+        "node_id": "MDQ6VXNlcjE5Nzg3OTM=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1978793?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yutannihilation",
+        "html_url": "https://github.com/yutannihilation",
+        "followers_url": "https://api.github.com/users/yutannihilation/followers",
+        "following_url": "https://api.github.com/users/yutannihilation/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yutannihilation/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yutannihilation/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yutannihilation/subscriptions",
+        "organizations_url": "https://api.github.com/users/yutannihilation/orgs",
+        "repos_url": "https://api.github.com/users/yutannihilation/repos",
+        "events_url": "https://api.github.com/users/yutannihilation/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yutannihilation/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a383fdbfafa3f640e3e298757e014d61751a113a",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/a383fdbfafa3f640e3e298757e014d61751a113a",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/a383fdbfafa3f640e3e298757e014d61751a113a"
+        }
+      ]
+    },
+    {
+      "sha": "a383fdbfafa3f640e3e298757e014d61751a113a",
+      "node_id": "C_kwDNS-7aAChhMzgzZmRiZmFmYTNmNjQwZTNlMjk4NzU3ZTAxNGQ2MTc1MWExMTNh",
+      "commit": {
+        "author": {
+          "name": "Thomas Lin Pedersen",
+          "email": "thomasp85@gmail.com",
+          "date": "2022-08-25T08:52:31Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-25T08:52:31Z"
+        },
+        "message": "Do not rename_size = TRUE for geoms that will accept both size and linewidth (#4964)",
+        "tree": {
+          "sha": "16e6dd9b753f055ca195ff6e040268e2c30064b6",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/16e6dd9b753f055ca195ff6e040268e2c30064b6"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/a383fdbfafa3f640e3e298757e014d61751a113a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBzhPCRBK7hj4Ov3rIwAAoFIIAGVOi7gRDjkyIz3Cq7vHI6i2\nZ2s/FsNOahXCCnO4nM+NgZvfC7ip+6zAWQcy2EC1yWChQduS6Ri8HITbALo0AHJV\nNP8kO/wD6mId3p2kHDw4CXv54PifXN1z4J91mi9c+ivgw33t3DusdyHL/lNsCjzw\n6KNsjoAyJm0gZCEwJCrezAn0Qx+fkCfmkYsxjZxEM7MXBImJowJQWPZZTAk3hSt4\noDAHsSAlqXRsmSXGXP1b65mvJjQRUA6m2G0M5uljgYiYp8/k0ZEox9uzvu0F0SYy\nCRbwCh/FO7pDJOh2XwLPg6QPe/jlRbHnYI1yXVtIc1w2IsgnEL4EfEiQd8SfAFk=\n=IW8y\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 16e6dd9b753f055ca195ff6e040268e2c30064b6\nparent 339462c666435a471a75882e04b3863688aea4a8\nauthor Thomas Lin Pedersen <thomasp85@gmail.com> 1661417551 +0200\ncommitter GitHub <noreply@github.com> 1661417551 +0200\n\nDo not rename_size = TRUE for geoms that will accept both size and linewidth (#4964)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/a383fdbfafa3f640e3e298757e014d61751a113a",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/a383fdbfafa3f640e3e298757e014d61751a113a",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/a383fdbfafa3f640e3e298757e014d61751a113a/comments",
+      "author": {
+        "login": "thomasp85",
+        "id": 1775316,
+        "node_id": "MDQ6VXNlcjE3NzUzMTY=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1775316?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/thomasp85",
+        "html_url": "https://github.com/thomasp85",
+        "followers_url": "https://api.github.com/users/thomasp85/followers",
+        "following_url": "https://api.github.com/users/thomasp85/following{/other_user}",
+        "gists_url": "https://api.github.com/users/thomasp85/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/thomasp85/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/thomasp85/subscriptions",
+        "organizations_url": "https://api.github.com/users/thomasp85/orgs",
+        "repos_url": "https://api.github.com/users/thomasp85/repos",
+        "events_url": "https://api.github.com/users/thomasp85/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/thomasp85/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "339462c666435a471a75882e04b3863688aea4a8",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/339462c666435a471a75882e04b3863688aea4a8",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/339462c666435a471a75882e04b3863688aea4a8"
+        }
+      ]
+    },
+    {
+      "sha": "339462c666435a471a75882e04b3863688aea4a8",
+      "node_id": "C_kwDNS-7aACgzMzk0NjJjNjY2NDM1YTQ3MWE3NTg4MmUwNGIzODYzNjg4YWVhNGE4",
+      "commit": {
+        "author": {
+          "name": "Thomas Lin Pedersen",
+          "email": "thomasp85@gmail.com",
+          "date": "2022-08-25T07:46:50Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-25T07:46:50Z"
+        },
+        "message": "Don't use I() to format the layer call (#4961)",
+        "tree": {
+          "sha": "7fa78a4000619a3395eb21c4bbf1d7c61a4913d7",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/7fa78a4000619a3395eb21c4bbf1d7c61a4913d7"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/339462c666435a471a75882e04b3863688aea4a8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjByjqCRBK7hj4Ov3rIwAAvtQIAFf/aksHY9DyEjGhd8Ax/7v+\nPRxIcB0m8zDUpt18jr8LxhG/d9hlWOKxCJRyJAoBOxTcfzbM7nDmtlOYgIWYWpq8\n2mgDL7W9jOmZ5Oog5jOfmr+qOLVIonMhBRw2O05NCtkoTkRjyFde0kXR+cM05yag\nUWFgSjTpdaVYGVIEHTfnB1rJrU9wUnc5eiXPcY3leZx7+dA/yG43fTi+xnWuqm+7\nbqtrDne4Idotx3nxcs3kU37644jpEGhQpVTYRHzWzF3slkbErjdawNvMmM0p4//I\nAfp7V3qBLXBHbzkg7jrgwkJxzVXIbwGP8v9DdcMUmdfkEkUleCqJvFQ6ex3xy2E=\n=3cuN\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7fa78a4000619a3395eb21c4bbf1d7c61a4913d7\nparent 6434c1e1181ab8feff40e86d7cbdcd0b11cf3758\nauthor Thomas Lin Pedersen <thomasp85@gmail.com> 1661413610 +0200\ncommitter GitHub <noreply@github.com> 1661413610 +0200\n\nDon't use I() to format the layer call (#4961)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/339462c666435a471a75882e04b3863688aea4a8",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/339462c666435a471a75882e04b3863688aea4a8",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/339462c666435a471a75882e04b3863688aea4a8/comments",
+      "author": {
+        "login": "thomasp85",
+        "id": 1775316,
+        "node_id": "MDQ6VXNlcjE3NzUzMTY=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1775316?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/thomasp85",
+        "html_url": "https://github.com/thomasp85",
+        "followers_url": "https://api.github.com/users/thomasp85/followers",
+        "following_url": "https://api.github.com/users/thomasp85/following{/other_user}",
+        "gists_url": "https://api.github.com/users/thomasp85/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/thomasp85/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/thomasp85/subscriptions",
+        "organizations_url": "https://api.github.com/users/thomasp85/orgs",
+        "repos_url": "https://api.github.com/users/thomasp85/repos",
+        "events_url": "https://api.github.com/users/thomasp85/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/thomasp85/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6434c1e1181ab8feff40e86d7cbdcd0b11cf3758",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/6434c1e1181ab8feff40e86d7cbdcd0b11cf3758",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/6434c1e1181ab8feff40e86d7cbdcd0b11cf3758"
+        }
+      ]
+    },
+    {
+      "sha": "6434c1e1181ab8feff40e86d7cbdcd0b11cf3758",
+      "node_id": "C_kwDNS-7aACg2NDM0YzFlMTE4MWFiOGZlZmY0MGU4NmQ3Y2JkY2QwYjExY2YzNzU4",
+      "commit": {
+        "author": {
+          "name": "Hiroaki Yutani",
+          "email": "yutani.ini@gmail.com",
+          "date": "2022-08-25T07:14:32Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-25T07:14:32Z"
+        },
+        "message": "Warn on the use of `..var..` and `stat(var)` (#4950)",
+        "tree": {
+          "sha": "12ebc0963a8f35a1099ca985b8e12f6176d09133",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/12ebc0963a8f35a1099ca985b8e12f6176d09133"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/6434c1e1181ab8feff40e86d7cbdcd0b11cf3758",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjByFYCRBK7hj4Ov3rIwAAsioIAEZCFZRNMpjXUT4FNI5CbwXP\nUPF1leYY0iptdcsaTe3FPftLk03psLlEcLV9gSwkALjBap8Ki7D0CurKLDuQXvYe\nDApePNL0lDCZAhwMs3By+42MTERpantn+Vd+2xOzdbdsSSTnWt83eKfrneZTlupP\n6/FA+tYoh44w5ejAJoGYhK7MCj7j6o2KuVtM3VNXVbEm+DMZW/TZRs+uhSE+0lw0\n4etWeAFX8OFFBY9F+rPE9XLgOcKeDJvwicRT5q0WqjxZyQemVpbiVAFLsis4dLFO\nx3wfzVNi6KKUzJzGWIWFAw8Pku09nqgRQO5m92fZsS3+Vn7n+J5gAKHI7L31Fvs=\n=gotS\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 12ebc0963a8f35a1099ca985b8e12f6176d09133\nparent 32534e9067f7a424a80b10460c2de6461ce1ec6f\nauthor Hiroaki Yutani <yutani.ini@gmail.com> 1661411672 +0900\ncommitter GitHub <noreply@github.com> 1661411672 +0900\n\nWarn on the use of `..var..` and `stat(var)` (#4950)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/6434c1e1181ab8feff40e86d7cbdcd0b11cf3758",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/6434c1e1181ab8feff40e86d7cbdcd0b11cf3758",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/6434c1e1181ab8feff40e86d7cbdcd0b11cf3758/comments",
+      "author": {
+        "login": "yutannihilation",
+        "id": 1978793,
+        "node_id": "MDQ6VXNlcjE5Nzg3OTM=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1978793?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yutannihilation",
+        "html_url": "https://github.com/yutannihilation",
+        "followers_url": "https://api.github.com/users/yutannihilation/followers",
+        "following_url": "https://api.github.com/users/yutannihilation/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yutannihilation/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yutannihilation/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yutannihilation/subscriptions",
+        "organizations_url": "https://api.github.com/users/yutannihilation/orgs",
+        "repos_url": "https://api.github.com/users/yutannihilation/repos",
+        "events_url": "https://api.github.com/users/yutannihilation/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yutannihilation/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "32534e9067f7a424a80b10460c2de6461ce1ec6f",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/32534e9067f7a424a80b10460c2de6461ce1ec6f",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/32534e9067f7a424a80b10460c2de6461ce1ec6f"
+        }
+      ]
+    },
+    {
+      "sha": "32534e9067f7a424a80b10460c2de6461ce1ec6f",
+      "node_id": "C_kwDNS-7aACgzMjUzNGU5MDY3ZjdhNDI0YTgwYjEwNDYwYzJkZTY0NjFjZTFlYzZm",
+      "commit": {
+        "author": {
+          "name": "Hiroaki Yutani",
+          "email": "yutani.ini@gmail.com",
+          "date": "2022-08-24T14:49:59Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-24T14:49:59Z"
+        },
+        "message": "Drop non-constant aesthetics more thoroughly (#4917)",
+        "tree": {
+          "sha": "da99a3d99c1639ea65e74d13a2c3e1be7d858cb7",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/da99a3d99c1639ea65e74d13a2c3e1be7d858cb7"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/32534e9067f7a424a80b10460c2de6461ce1ec6f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBjqXCRBK7hj4Ov3rIwAAQPEIAKKHQLcnv3GRQ40mutfVqodm\n5XN/VKJcZGwqDbPGS9uxRk8CvbV8gXXs6IbXB9OxrtiivWrv/oYFTgpMk3miTrLK\neAdpzPpwVgaa26yRbi95x8Wz1wNXvxJ2o7tWi+TI7YVUAOldz7F0oFamIej9h5rB\n0MeyJSdApIz5TNdfYB2m37M1E+mIT3qG3AQDV+yztuAvBe3waq2zH571XMm6WIXb\n1HV9L0L1NvF2avDNho8v4KJSzL9Ewk+axONulHNVWDXynqvuXsyH1xoTJ24fqR0h\nDYCiyCfbTjxmn7+VC8Ce9FlCWu3RS5qHihtwFZXk7v78DGvdaVXUArdDRuMvlOk=\n=9FmH\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree da99a3d99c1639ea65e74d13a2c3e1be7d858cb7\nparent 5ebe979d4e7c9333c36cda7d4104b9f8160c29b2\nauthor Hiroaki Yutani <yutani.ini@gmail.com> 1661352599 +0900\ncommitter GitHub <noreply@github.com> 1661352599 +0900\n\nDrop non-constant aesthetics more thoroughly (#4917)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/32534e9067f7a424a80b10460c2de6461ce1ec6f",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/32534e9067f7a424a80b10460c2de6461ce1ec6f",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/32534e9067f7a424a80b10460c2de6461ce1ec6f/comments",
+      "author": {
+        "login": "yutannihilation",
+        "id": 1978793,
+        "node_id": "MDQ6VXNlcjE5Nzg3OTM=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1978793?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yutannihilation",
+        "html_url": "https://github.com/yutannihilation",
+        "followers_url": "https://api.github.com/users/yutannihilation/followers",
+        "following_url": "https://api.github.com/users/yutannihilation/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yutannihilation/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yutannihilation/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yutannihilation/subscriptions",
+        "organizations_url": "https://api.github.com/users/yutannihilation/orgs",
+        "repos_url": "https://api.github.com/users/yutannihilation/repos",
+        "events_url": "https://api.github.com/users/yutannihilation/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yutannihilation/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5ebe979d4e7c9333c36cda7d4104b9f8160c29b2",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/5ebe979d4e7c9333c36cda7d4104b9f8160c29b2",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/5ebe979d4e7c9333c36cda7d4104b9f8160c29b2"
+        }
+      ]
+    },
+    {
+      "sha": "5ebe979d4e7c9333c36cda7d4104b9f8160c29b2",
+      "node_id": "C_kwDNS-7aACg1ZWJlOTc5ZDRlN2M5MzMzYzM2Y2RhN2Q0MTA0YjlmODE2MGMyOWIy",
+      "commit": {
+        "author": {
+          "name": "Thomas Lin Pedersen",
+          "email": "thomasp85@gmail.com",
+          "date": "2022-08-24T10:38:11Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-24T10:38:11Z"
+        },
+        "message": "rename size -> linewidth in element_rect and element_line (#4956)",
+        "tree": {
+          "sha": "d09d27a4cfe167ccb95c2935fe88d9d8bb81c09d",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/d09d27a4cfe167ccb95c2935fe88d9d8bb81c09d"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/5ebe979d4e7c9333c36cda7d4104b9f8160c29b2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBf+TCRBK7hj4Ov3rIwAAjzAIAK7hqgUSpN+Orb3a/X0YyJaL\no6a974d5sZAHQghL4o6gysLIdCw7Ukne6jCoUfuEm/RedThtHUlnd9CBR0ecHyCi\n7ly2NHFKaBRz0bkOAsvCcf2Ji6XgJLlLVYJNjeNBTL+dQWkG9Fas/i031zrzkSsF\nTxTAilqaSLAmOOdxyX1uO+2GGJhyWpoegnqTTFGDot/y6J7sZ7d0jhG9fNPOOLPh\nRLM0uN5FxnX3o9v3bhdB8pO0WMIa7DJfOTLT/FByA1NcgwF4AcAt6IwTDKxrhuMs\nr0qJGgUnFCukEDMqbIxNL7Y7l7U5MGxARUYALi22GT1Rk/Nry5z38vhFFS2voX8=\n=qOyH\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d09d27a4cfe167ccb95c2935fe88d9d8bb81c09d\nparent de4c2255b044d993b9a01ed11079a2a459f9d484\nauthor Thomas Lin Pedersen <thomasp85@gmail.com> 1661337491 +0200\ncommitter GitHub <noreply@github.com> 1661337491 +0200\n\nrename size -> linewidth in element_rect and element_line (#4956)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/5ebe979d4e7c9333c36cda7d4104b9f8160c29b2",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/5ebe979d4e7c9333c36cda7d4104b9f8160c29b2",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/5ebe979d4e7c9333c36cda7d4104b9f8160c29b2/comments",
+      "author": {
+        "login": "thomasp85",
+        "id": 1775316,
+        "node_id": "MDQ6VXNlcjE3NzUzMTY=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1775316?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/thomasp85",
+        "html_url": "https://github.com/thomasp85",
+        "followers_url": "https://api.github.com/users/thomasp85/followers",
+        "following_url": "https://api.github.com/users/thomasp85/following{/other_user}",
+        "gists_url": "https://api.github.com/users/thomasp85/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/thomasp85/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/thomasp85/subscriptions",
+        "organizations_url": "https://api.github.com/users/thomasp85/orgs",
+        "repos_url": "https://api.github.com/users/thomasp85/repos",
+        "events_url": "https://api.github.com/users/thomasp85/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/thomasp85/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "de4c2255b044d993b9a01ed11079a2a459f9d484",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/de4c2255b044d993b9a01ed11079a2a459f9d484",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/de4c2255b044d993b9a01ed11079a2a459f9d484"
+        }
+      ]
+    },
+    {
+      "sha": "de4c2255b044d993b9a01ed11079a2a459f9d484",
+      "node_id": "C_kwDNS-7aAChkZTRjMjI1NWIwNDRkOTkzYjlhMDFlZDExMDc5YTJhNDU5ZjlkNDg0",
+      "commit": {
+        "author": {
+          "name": "Hiroaki Yutani",
+          "email": "yutani.ini@gmail.com",
+          "date": "2022-08-24T09:47:54Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-24T09:47:54Z"
+        },
+        "message": "Use linewidth more (#4959)",
+        "tree": {
+          "sha": "d94bf5d0f277fb593899669ca243a8541e2cb866",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/d94bf5d0f277fb593899669ca243a8541e2cb866"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/de4c2255b044d993b9a01ed11079a2a459f9d484",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBfPKCRBK7hj4Ov3rIwAAlNEIAKCX/Og2d1mxT5NGxLB13mbd\nTNbLDJLHH9gHOQbOUl5L6jTDadV6pAQbBsJqNRGgwgmRdCm9SZrDC6MvzBqJsKYs\n8QcdHlz3SnAl0nMj+0H7aKbkKixId2RTUOt+/dvxvUzrdN6sp6tJpv+yBuzsnh1J\n//vQzrcMiQbiJ21xJdnJAVNtjbk64hDHZCmc82ROG43e1tDaKDNlVt9XKrljRqA3\ntSjRcyOZJogCy4YjZCKNwLys5f1RDo1NDZub2f8MnpSAV6GBwLrKAUgYaKpSejtI\nLXV60JVMoFoaXvy+NrBMN1VdEq3Hu/o8feaDk/pOa+c+5vOtltrIBGLeUCpvwVI=\n=p5qF\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d94bf5d0f277fb593899669ca243a8541e2cb866\nparent 8bc749fbb0d991f7f2af2a3a1e2f8b55ed3d0cc0\nauthor Hiroaki Yutani <yutani.ini@gmail.com> 1661334474 +0900\ncommitter GitHub <noreply@github.com> 1661334474 +0900\n\nUse linewidth more (#4959)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/de4c2255b044d993b9a01ed11079a2a459f9d484",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/de4c2255b044d993b9a01ed11079a2a459f9d484",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/de4c2255b044d993b9a01ed11079a2a459f9d484/comments",
+      "author": {
+        "login": "yutannihilation",
+        "id": 1978793,
+        "node_id": "MDQ6VXNlcjE5Nzg3OTM=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1978793?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yutannihilation",
+        "html_url": "https://github.com/yutannihilation",
+        "followers_url": "https://api.github.com/users/yutannihilation/followers",
+        "following_url": "https://api.github.com/users/yutannihilation/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yutannihilation/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yutannihilation/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yutannihilation/subscriptions",
+        "organizations_url": "https://api.github.com/users/yutannihilation/orgs",
+        "repos_url": "https://api.github.com/users/yutannihilation/repos",
+        "events_url": "https://api.github.com/users/yutannihilation/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yutannihilation/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8bc749fbb0d991f7f2af2a3a1e2f8b55ed3d0cc0",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/8bc749fbb0d991f7f2af2a3a1e2f8b55ed3d0cc0",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/8bc749fbb0d991f7f2af2a3a1e2f8b55ed3d0cc0"
+        }
+      ]
+    },
+    {
+      "sha": "8bc749fbb0d991f7f2af2a3a1e2f8b55ed3d0cc0",
+      "node_id": "C_kwDNS-7aACg4YmM3NDlmYmIwZDk5MWY3ZjJhZjJhM2ExZTJmOGI1NWVkM2QwY2Mw",
+      "commit": {
+        "author": {
+          "name": "Michael Grund",
+          "email": "23025878+michaelgrund@users.noreply.github.com",
+          "date": "2022-08-24T09:43:18Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-24T09:43:18Z"
+        },
+        "message": "Fix typos in reference lines docs (#4957)",
+        "tree": {
+          "sha": "7e71cc2c34b50b0fded4f74ae964226c026e815f",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/7e71cc2c34b50b0fded4f74ae964226c026e815f"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/8bc749fbb0d991f7f2af2a3a1e2f8b55ed3d0cc0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBfK2CRBK7hj4Ov3rIwAA8tEIAC4ILbqL/71sNd85tcOHnpPP\nvHOySNRZZYiakNphor3j4UbPnqhKkpoW80FXpDTkiG/Y1hoonoWA5XPfqgq+wRiU\nRgMe4ENEaJc2oWYa5jnRMOi6ayUVZBiDP6Mp8bJGaDm1JivF2s+AnBhu5Dn7je2n\nIK+Lgw+Iiv6JsUbX6StdipmqS15sJxdtXlM4atbq6lG2wkWitdKNb2RmczQxMh/T\n2dDbPkgnCKAH+9eYV/D3SmP9ZuXX2In/86mKDzf4KyjoRIMZqiNRI7bTkcZ1NMAM\n3Zr1GWvmZ1GL4uDWp7IUUO5LmCC1mWgRDd7rvZKxHxWcEZk0nUaJWDuu7ZlmNJg=\n=e29a\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7e71cc2c34b50b0fded4f74ae964226c026e815f\nparent c86ed7bc59060d94fb070fe1bb1574e8b6026ff8\nauthor Michael Grund <23025878+michaelgrund@users.noreply.github.com> 1661334198 +0200\ncommitter GitHub <noreply@github.com> 1661334198 +0200\n\nFix typos in reference lines docs (#4957)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/8bc749fbb0d991f7f2af2a3a1e2f8b55ed3d0cc0",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/8bc749fbb0d991f7f2af2a3a1e2f8b55ed3d0cc0",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/8bc749fbb0d991f7f2af2a3a1e2f8b55ed3d0cc0/comments",
+      "author": {
+        "login": "michaelgrund",
+        "id": 23025878,
+        "node_id": "MDQ6VXNlcjIzMDI1ODc4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23025878?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/michaelgrund",
+        "html_url": "https://github.com/michaelgrund",
+        "followers_url": "https://api.github.com/users/michaelgrund/followers",
+        "following_url": "https://api.github.com/users/michaelgrund/following{/other_user}",
+        "gists_url": "https://api.github.com/users/michaelgrund/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/michaelgrund/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/michaelgrund/subscriptions",
+        "organizations_url": "https://api.github.com/users/michaelgrund/orgs",
+        "repos_url": "https://api.github.com/users/michaelgrund/repos",
+        "events_url": "https://api.github.com/users/michaelgrund/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/michaelgrund/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c86ed7bc59060d94fb070fe1bb1574e8b6026ff8",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/c86ed7bc59060d94fb070fe1bb1574e8b6026ff8",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/c86ed7bc59060d94fb070fe1bb1574e8b6026ff8"
+        }
+      ]
+    },
+    {
+      "sha": "c86ed7bc59060d94fb070fe1bb1574e8b6026ff8",
+      "node_id": "C_kwDNS-7aAChjODZlZDdiYzU5MDYwZDk0ZmIwNzBmZTFiYjE1NzRlOGI2MDI2ZmY4",
+      "commit": {
+        "author": {
+          "name": "Hiroaki Yutani",
+          "email": "yutani.ini@gmail.com",
+          "date": "2022-08-23T12:14:43Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-23T12:14:43Z"
+        },
+        "message": "Add rename_size = TRUE to GeomBar (#4939)",
+        "tree": {
+          "sha": "fe883357536cb8bc474227f2d4a03ebffe5086c2",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/fe883357536cb8bc474227f2d4a03ebffe5086c2"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/c86ed7bc59060d94fb070fe1bb1574e8b6026ff8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBMS0CRBK7hj4Ov3rIwAASOUIAFTAud35u8hT1EukhG/Uno1G\nobozIPJ7x2r234RZFq8dDAOIkwEDJGjZ4UhHZzmzhTXdGHLpOjoIVWs3SqO90Iqw\nejq+FnwMmITAOG1S5RhkjsLHNhq2Q1jjTg2ovhTsBXQcSwEt8AoG8rXXSrkdAZIq\nFERvpQIJ3qGh+ztuazIJE6f7vHQR7yCCci2dVSsLV2RcnwKcmcoFVcZhmjnmhYRA\nqT8DSxfU0b3lujAHcr1J410OAK27SQV9wykWPgUAw70Ifb1/nR/s3tDHvM0ERQcn\nIjb62g+Sotby3a8yLdmiEhK3HBXYZ/YS4CxwuN7z6UmXfi+x0F7XTqXzAvkh8v0=\n=BeHb\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree fe883357536cb8bc474227f2d4a03ebffe5086c2\nparent b4d85215045d495c13b5492815749097d4680689\nauthor Hiroaki Yutani <yutani.ini@gmail.com> 1661256883 +0900\ncommitter GitHub <noreply@github.com> 1661256883 +0900\n\nAdd rename_size = TRUE to GeomBar (#4939)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/c86ed7bc59060d94fb070fe1bb1574e8b6026ff8",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/c86ed7bc59060d94fb070fe1bb1574e8b6026ff8",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/c86ed7bc59060d94fb070fe1bb1574e8b6026ff8/comments",
+      "author": {
+        "login": "yutannihilation",
+        "id": 1978793,
+        "node_id": "MDQ6VXNlcjE5Nzg3OTM=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1978793?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yutannihilation",
+        "html_url": "https://github.com/yutannihilation",
+        "followers_url": "https://api.github.com/users/yutannihilation/followers",
+        "following_url": "https://api.github.com/users/yutannihilation/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yutannihilation/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yutannihilation/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yutannihilation/subscriptions",
+        "organizations_url": "https://api.github.com/users/yutannihilation/orgs",
+        "repos_url": "https://api.github.com/users/yutannihilation/repos",
+        "events_url": "https://api.github.com/users/yutannihilation/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yutannihilation/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b4d85215045d495c13b5492815749097d4680689",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/b4d85215045d495c13b5492815749097d4680689",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/b4d85215045d495c13b5492815749097d4680689"
+        }
+      ]
+    },
+    {
+      "sha": "b4d85215045d495c13b5492815749097d4680689",
+      "node_id": "C_kwDNS-7aAChiNGQ4NTIxNTA0NWQ0OTVjMTNiNTQ5MjgxNTc0OTA5N2Q0NjgwNjg5",
+      "commit": {
+        "author": {
+          "name": "Hiroaki Yutani",
+          "email": "yutani.ini@gmail.com",
+          "date": "2022-08-23T11:47:35Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-23T11:47:35Z"
+        },
+        "message": "Add a note that geom_raster() ignores `colour` (#4943)",
+        "tree": {
+          "sha": "49dfc068d8442aa6bc11f8343924f69f62c24778",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/49dfc068d8442aa6bc11f8343924f69f62c24778"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/b4d85215045d495c13b5492815749097d4680689",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBL5XCRBK7hj4Ov3rIwAAwTkIAF3JMNfNUcw8R3WVDbnN82DX\nz6WzKT8GiNPNUT3Px2zd+pI9cMN2NsyqXaK617dXPZPquEgpqFLZDq4mFNL/w0Jd\ns5dM2xpidys68FMW4nIhVhNcM7/jM+N+WCuQUsOGdWfxC5yvSiIDfvt17mJfGHVT\nitCXp6y0Lk5IuMeISQFCf/cJqtyus99olAvpgtlcNpk0ieDU+af5lJQCrHq+Dt3O\nMyIc8IqrNaEaSAddzvYPGVVz7GgixbxzxsmeNFt9RKiY9u7cxOEAf1ioAPwD/zCd\nZPLm4H5i6RsBqUnUe0nD5eTSBWzjRRQt+X9qfAkGAsKB/IRezZfTLicsnbhA3HA=\n=NY5h\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 49dfc068d8442aa6bc11f8343924f69f62c24778\nparent 1c20c94c842a555890e94521de492e8ee1506262\nauthor Hiroaki Yutani <yutani.ini@gmail.com> 1661255255 +0900\ncommitter GitHub <noreply@github.com> 1661255255 +0900\n\nAdd a note that geom_raster() ignores `colour` (#4943)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/b4d85215045d495c13b5492815749097d4680689",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/b4d85215045d495c13b5492815749097d4680689",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/b4d85215045d495c13b5492815749097d4680689/comments",
+      "author": {
+        "login": "yutannihilation",
+        "id": 1978793,
+        "node_id": "MDQ6VXNlcjE5Nzg3OTM=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1978793?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yutannihilation",
+        "html_url": "https://github.com/yutannihilation",
+        "followers_url": "https://api.github.com/users/yutannihilation/followers",
+        "following_url": "https://api.github.com/users/yutannihilation/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yutannihilation/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yutannihilation/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yutannihilation/subscriptions",
+        "organizations_url": "https://api.github.com/users/yutannihilation/orgs",
+        "repos_url": "https://api.github.com/users/yutannihilation/repos",
+        "events_url": "https://api.github.com/users/yutannihilation/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yutannihilation/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1c20c94c842a555890e94521de492e8ee1506262",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/1c20c94c842a555890e94521de492e8ee1506262",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/1c20c94c842a555890e94521de492e8ee1506262"
+        }
+      ]
+    },
+    {
+      "sha": "1c20c94c842a555890e94521de492e8ee1506262",
+      "node_id": "C_kwDNS-7aACgxYzIwYzk0Yzg0MmE1NTU4OTBlOTQ1MjFkZTQ5MmU4ZWUxNTA2MjYy",
+      "commit": {
+        "author": {
+          "name": "Hiroaki Yutani",
+          "email": "yutani.ini@gmail.com",
+          "date": "2022-08-23T11:46:42Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-23T11:46:42Z"
+        },
+        "message": "Apply the same fix as #4667 to draw_key_point() (#4938)",
+        "tree": {
+          "sha": "b3997c5f89b38f13642c724e506b9bc4a7748ed7",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/b3997c5f89b38f13642c724e506b9bc4a7748ed7"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/1c20c94c842a555890e94521de492e8ee1506262",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBL4iCRBK7hj4Ov3rIwAALqwIABThaEO2zsxqMFlSCiGaOT2J\n1p7g5NJ2vkgR1B50LvTPGoUwiBHiuazOQ/j85iSCv/8Rzh4W4HflmCzZ1nkdvy0c\nwcNI1GFXgb4wJ2aDDRSRjIVMMNusQK6DOwTEbi5o4JYWocbfxJmumxk5G7ZF8u3M\nJaslGl5akR0TxEffEyQyF6GJiii/DCuh7+rJnaGyIrT3CVxI02NfQN29SKSzJzF6\nQPeCY8U2fW5IIdYFEt6x8XoZXpi3bosgIfImtmD07Yn4sU0WUds0fnUwLT4sohlF\ngdbfU4OiFnULAmfW2FqVAVXfClp1ukJa7Woqqy1EsSqE49CG9i4yskY2PF1bX7E=\n=+7OM\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b3997c5f89b38f13642c724e506b9bc4a7748ed7\nparent 8d0cef1c86d1a8a2e7803dade1ea016f3991c0a6\nauthor Hiroaki Yutani <yutani.ini@gmail.com> 1661255202 +0900\ncommitter GitHub <noreply@github.com> 1661255202 +0900\n\nApply the same fix as #4667 to draw_key_point() (#4938)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/1c20c94c842a555890e94521de492e8ee1506262",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/1c20c94c842a555890e94521de492e8ee1506262",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/1c20c94c842a555890e94521de492e8ee1506262/comments",
+      "author": {
+        "login": "yutannihilation",
+        "id": 1978793,
+        "node_id": "MDQ6VXNlcjE5Nzg3OTM=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1978793?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yutannihilation",
+        "html_url": "https://github.com/yutannihilation",
+        "followers_url": "https://api.github.com/users/yutannihilation/followers",
+        "following_url": "https://api.github.com/users/yutannihilation/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yutannihilation/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yutannihilation/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yutannihilation/subscriptions",
+        "organizations_url": "https://api.github.com/users/yutannihilation/orgs",
+        "repos_url": "https://api.github.com/users/yutannihilation/repos",
+        "events_url": "https://api.github.com/users/yutannihilation/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yutannihilation/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8d0cef1c86d1a8a2e7803dade1ea016f3991c0a6",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/8d0cef1c86d1a8a2e7803dade1ea016f3991c0a6",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/8d0cef1c86d1a8a2e7803dade1ea016f3991c0a6"
+        }
+      ]
+    },
+    {
+      "sha": "8d0cef1c86d1a8a2e7803dade1ea016f3991c0a6",
+      "node_id": "C_kwDNS-7aACg4ZDBjZWYxYzg2ZDFhOGEyZTc4MDNkYWRlMWVhMDE2ZjM5OTFjMGE2",
+      "commit": {
+        "author": {
+          "name": "Jacob Scott",
+          "email": "jake12358@gmail.com",
+          "date": "2022-08-23T11:39:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-23T11:39:16Z"
+        },
+        "message": "Feat/issue 4899 simplify alignment for column geoms (#4921)",
+        "tree": {
+          "sha": "8d327d0bfd360daa65890eed63d486189d86454a",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/8d327d0bfd360daa65890eed63d486189d86454a"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/8d0cef1c86d1a8a2e7803dade1ea016f3991c0a6",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBLxkCRBK7hj4Ov3rIwAA0vkIALJFpeROSDC3MuSCKCdRpDuC\nuT+aKZoPChz6P9qnxLSUiSeajSAQ/x7EKm7+7WvOvXjNlJlfsj9t4G0lSo+oKDRD\nqZFQtolO0YEJ3+eFBxgeuWepRyRfBFXqBML4dntc4WXJzRvK4qIfvA601wez0lkp\nsU8aQwEZDmiNraC7PBywax3/crXpcAWa5scSwNSGhffMWVZsLq2xqqSYZaDEI24N\nhVhx6eFrEaUBN9iS9P5whOGmZZGtB5yaWUeHDjUqLpVi8bZM/ZPreZMr+CR4nI7G\nuraOD5xPSaAs73Q5+nCRl/JNvxgT0SDxU/Q0/sZUVLyVu2gOWWY2KeKmklD0oDc=\n=LRDU\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 8d327d0bfd360daa65890eed63d486189d86454a\nparent cb3ba4a6ad66bdce85262fc53c1084ed9899d9d2\nauthor Jacob Scott <jake12358@gmail.com> 1661254756 +0100\ncommitter GitHub <noreply@github.com> 1661254756 +0900\n\nFeat/issue 4899 simplify alignment for column geoms (#4921)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/8d0cef1c86d1a8a2e7803dade1ea016f3991c0a6",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/8d0cef1c86d1a8a2e7803dade1ea016f3991c0a6",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/8d0cef1c86d1a8a2e7803dade1ea016f3991c0a6/comments",
+      "author": {
+        "login": "wurli",
+        "id": 17475731,
+        "node_id": "MDQ6VXNlcjE3NDc1NzMx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17475731?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wurli",
+        "html_url": "https://github.com/wurli",
+        "followers_url": "https://api.github.com/users/wurli/followers",
+        "following_url": "https://api.github.com/users/wurli/following{/other_user}",
+        "gists_url": "https://api.github.com/users/wurli/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/wurli/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/wurli/subscriptions",
+        "organizations_url": "https://api.github.com/users/wurli/orgs",
+        "repos_url": "https://api.github.com/users/wurli/repos",
+        "events_url": "https://api.github.com/users/wurli/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/wurli/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cb3ba4a6ad66bdce85262fc53c1084ed9899d9d2",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/cb3ba4a6ad66bdce85262fc53c1084ed9899d9d2",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/cb3ba4a6ad66bdce85262fc53c1084ed9899d9d2"
+        }
+      ]
+    },
+    {
+      "sha": "cb3ba4a6ad66bdce85262fc53c1084ed9899d9d2",
+      "node_id": "C_kwDNS-7aAChjYjNiYTRhNmFkNjZiZGNlODUyNjJmYzUzYzEwODRlZDk4OTlkOWQy",
+      "commit": {
+        "author": {
+          "name": "Hiroaki Yutani",
+          "email": "yutani.ini@gmail.com",
+          "date": "2022-08-23T11:37:45Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-23T11:37:45Z"
+        },
+        "message": "Add an example for stat_align() (#4940)",
+        "tree": {
+          "sha": "2809037c29a0f8480b5e476cff53e71931fbac54",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/2809037c29a0f8480b5e476cff53e71931fbac54"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/cb3ba4a6ad66bdce85262fc53c1084ed9899d9d2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBLwJCRBK7hj4Ov3rIwAA7xAIAHQxrtg2ZCmQXKsgGgFL3tw7\nrQxTg8jxM/gzEpS4ZKXASMg2jipIp4Ij+fGDz0MVAmjOEVtWoii/kzsN4vIStl4p\n+Ng5lveCWks8w2Tb7y2i56prmHsAb80Du35IS69vNAtjbSqLbJftUQhBs6zrbVkT\n/iI2H/Wp4GCdmQG4k9eOQOQ95NDKq0T3nEDcBYKojpg7rX902YjwSkiK4RfOK6No\nJsmGeBytoS+ddKtVKtdTMfrxKkvxQ07/ZCGy6w0Wo+raMXKFTsgHPhriRYWs6diZ\nI/V7Mu3ppWzm93AuKJY4C3tP3PYcucxS6A6Mz8hBMi7gLy1+uoglJfRRG/bICTo=\n=WYF9\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2809037c29a0f8480b5e476cff53e71931fbac54\nparent 154fd7fb5185c6fd58f4ccadc7ebe34ca7f8aa57\nauthor Hiroaki Yutani <yutani.ini@gmail.com> 1661254665 +0900\ncommitter GitHub <noreply@github.com> 1661254665 +0900\n\nAdd an example for stat_align() (#4940)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/cb3ba4a6ad66bdce85262fc53c1084ed9899d9d2",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/cb3ba4a6ad66bdce85262fc53c1084ed9899d9d2",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/cb3ba4a6ad66bdce85262fc53c1084ed9899d9d2/comments",
+      "author": {
+        "login": "yutannihilation",
+        "id": 1978793,
+        "node_id": "MDQ6VXNlcjE5Nzg3OTM=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1978793?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yutannihilation",
+        "html_url": "https://github.com/yutannihilation",
+        "followers_url": "https://api.github.com/users/yutannihilation/followers",
+        "following_url": "https://api.github.com/users/yutannihilation/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yutannihilation/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yutannihilation/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yutannihilation/subscriptions",
+        "organizations_url": "https://api.github.com/users/yutannihilation/orgs",
+        "repos_url": "https://api.github.com/users/yutannihilation/repos",
+        "events_url": "https://api.github.com/users/yutannihilation/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yutannihilation/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "154fd7fb5185c6fd58f4ccadc7ebe34ca7f8aa57",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/154fd7fb5185c6fd58f4ccadc7ebe34ca7f8aa57",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/154fd7fb5185c6fd58f4ccadc7ebe34ca7f8aa57"
+        }
+      ]
+    },
+    {
+      "sha": "154fd7fb5185c6fd58f4ccadc7ebe34ca7f8aa57",
+      "node_id": "C_kwDNS-7aACgxNTRmZDdmYjUxODVjNmZkNThmNGNjYWRjN2ViZTM0Y2E3ZjhhYTU3",
+      "commit": {
+        "author": {
+          "name": "Hiroaki Yutani",
+          "email": "yutani.ini@gmail.com",
+          "date": "2022-08-23T11:32:55Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-23T11:32:55Z"
+        },
+        "message": "Use linewidth in ggplot2-spec.Rmd (#4952)",
+        "tree": {
+          "sha": "fb3f672fa6e617e0c88ab15d48b0997d9644a5ba",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/fb3f672fa6e617e0c88ab15d48b0997d9644a5ba"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/154fd7fb5185c6fd58f4ccadc7ebe34ca7f8aa57",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBLrnCRBK7hj4Ov3rIwAAiKMIAIoll8V4pZtZVY5T5ZIafYxq\nsUhR9rWUNjRdB6k+ZuoIILayCAY1eOksUwYpjLsONaEGddKOXATistgsgmQPYa2/\nQBOBoLUhmpHu8PgprmA4Fy7cI46xa8QFUb51ijmK5kgGG1R+V2WCwGbjfyLSj8Pm\n5tQ4iUkPAihaOC0Xj8JhjTxO9c77yfiNaaKBMUrj8qKczfX3GfXIK21dNFTfX5c2\nP6dMx62EwSyYTe/YCeCy2+VsowTwe7q7yCvY1hNg2O54v5fSX0QUnbPNkOe2vri0\nMY7pZ4AZ4BCpntUkwkzHNq+BI1jAQUTooKjLaSSQRKzYPRHlxYuAvlYLvmSucLI=\n=mnGZ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree fb3f672fa6e617e0c88ab15d48b0997d9644a5ba\nparent afb75b6fa19d5a863238931c7bab1ec23175836d\nauthor Hiroaki Yutani <yutani.ini@gmail.com> 1661254375 +0900\ncommitter GitHub <noreply@github.com> 1661254375 +0900\n\nUse linewidth in ggplot2-spec.Rmd (#4952)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/154fd7fb5185c6fd58f4ccadc7ebe34ca7f8aa57",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/154fd7fb5185c6fd58f4ccadc7ebe34ca7f8aa57",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/154fd7fb5185c6fd58f4ccadc7ebe34ca7f8aa57/comments",
+      "author": {
+        "login": "yutannihilation",
+        "id": 1978793,
+        "node_id": "MDQ6VXNlcjE5Nzg3OTM=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1978793?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yutannihilation",
+        "html_url": "https://github.com/yutannihilation",
+        "followers_url": "https://api.github.com/users/yutannihilation/followers",
+        "following_url": "https://api.github.com/users/yutannihilation/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yutannihilation/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yutannihilation/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yutannihilation/subscriptions",
+        "organizations_url": "https://api.github.com/users/yutannihilation/orgs",
+        "repos_url": "https://api.github.com/users/yutannihilation/repos",
+        "events_url": "https://api.github.com/users/yutannihilation/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yutannihilation/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "afb75b6fa19d5a863238931c7bab1ec23175836d",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/afb75b6fa19d5a863238931c7bab1ec23175836d",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/afb75b6fa19d5a863238931c7bab1ec23175836d"
+        }
+      ]
+    },
+    {
+      "sha": "afb75b6fa19d5a863238931c7bab1ec23175836d",
+      "node_id": "C_kwDNS-7aAChhZmI3NWI2ZmExOWQ1YTg2MzIzODkzMWM3YmFiMWVjMjMxNzU4MzZk",
+      "commit": {
+        "author": {
+          "name": "Michael Grund",
+          "email": "23025878+michaelgrund@users.noreply.github.com",
+          "date": "2022-08-23T11:13:09Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-23T11:13:09Z"
+        },
+        "message": "Fix typo in annotation docs (#4955)",
+        "tree": {
+          "sha": "2777a96572f81549af33126a2cdde79bd057af32",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/2777a96572f81549af33126a2cdde79bd057af32"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/afb75b6fa19d5a863238931c7bab1ec23175836d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBLZFCRBK7hj4Ov3rIwAAHSIIAB/VZAf4KQO1nm8497gUlgRZ\ngG4vMVYumOIfAqB+wWgPoKqbkuYe4ik8C1uKhjGYoLB4bWVV54FLsTzxk8O04lDA\nn7Lkv7wbHwNRZ7vpugEwI5ooObEJk/OkOEUZyFm2J+VGO9gZfEbEZ6XL7QaSa/q3\ny//qMv07b4eakCF2xWOHuJYvl6YLZiJz/FAebh5E8WcgIAPQ+N5/+B8ogG24BZes\nVWjRhjXlzGR3npoEHgbYckmtuHYWreacmk/iCJzV/wdveEK7A/RC1PLTO4HQD+Rf\n9HgDSXFvkeg4rI6gHryujxVFgwCRwlvQkUnHR2t78GZdii6Uv4frqeqkDodHoA0=\n=3pO7\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2777a96572f81549af33126a2cdde79bd057af32\nparent 7ac55dd359a391ec15682724f5a6997e6b57588a\nauthor Michael Grund <23025878+michaelgrund@users.noreply.github.com> 1661253189 +0200\ncommitter GitHub <noreply@github.com> 1661253189 +0200\n\nFix typo in annotation docs (#4955)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/afb75b6fa19d5a863238931c7bab1ec23175836d",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/afb75b6fa19d5a863238931c7bab1ec23175836d",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/afb75b6fa19d5a863238931c7bab1ec23175836d/comments",
+      "author": {
+        "login": "michaelgrund",
+        "id": 23025878,
+        "node_id": "MDQ6VXNlcjIzMDI1ODc4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23025878?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/michaelgrund",
+        "html_url": "https://github.com/michaelgrund",
+        "followers_url": "https://api.github.com/users/michaelgrund/followers",
+        "following_url": "https://api.github.com/users/michaelgrund/following{/other_user}",
+        "gists_url": "https://api.github.com/users/michaelgrund/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/michaelgrund/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/michaelgrund/subscriptions",
+        "organizations_url": "https://api.github.com/users/michaelgrund/orgs",
+        "repos_url": "https://api.github.com/users/michaelgrund/repos",
+        "events_url": "https://api.github.com/users/michaelgrund/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/michaelgrund/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7ac55dd359a391ec15682724f5a6997e6b57588a",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/7ac55dd359a391ec15682724f5a6997e6b57588a",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/7ac55dd359a391ec15682724f5a6997e6b57588a"
+        }
+      ]
+    },
+    {
+      "sha": "7ac55dd359a391ec15682724f5a6997e6b57588a",
+      "node_id": "C_kwDNS-7aACg3YWM1NWRkMzU5YTM5MWVjMTU2ODI3MjRmNWE2OTk3ZTZiNTc1ODhh",
+      "commit": {
+        "author": {
+          "name": "Javlon Isomurodov",
+          "email": "isomurodov@gmail.com",
+          "date": "2022-08-14T11:55:46Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-14T11:55:46Z"
+        },
+        "message": "revert pr for position_dodge2 (#4945)",
+        "tree": {
+          "sha": "f3439be370494a58c1f4ad5e76c0fdc8b634e395",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/f3439be370494a58c1f4ad5e76c0fdc8b634e395"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/7ac55dd359a391ec15682724f5a6997e6b57588a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi+OLCCRBK7hj4Ov3rIwAAdhcIAAxmWGrn0GBT+WqwO+O5QPMM\nHHDyKSwYaoDhiwHL55PYTiBt8KlZeTn64guYHSGhvzxA5pYoL3CKLjDGeutaPMgI\nfUROZcvzzbtEBcTg7OwPSi9Q0hV6MdIVMdFdGp95yGAapXHAA88p6AuiemLHcoix\naVHGTMuG5QohGJzvscOo4m8g116ol3SzXB9kXtYKniiNexpa8mwTxrelmLiOgNOY\nhwOaKNCXHhhBkUrqYNVpesE/gfQxvaBFmnqZ31bCx8KI+Qv+etGYUTv7XTXritGm\nzrFHhKnXTnb1GIXkA9p9D5Nb8r+IvAWQ/B45sU6kXKYByzxtiVeaTOrFjkDxUjQ=\n=0xlU\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f3439be370494a58c1f4ad5e76c0fdc8b634e395\nparent c20e142fa1e9cf0c8f10ac71b25ab36099ed9f49\nauthor Javlon Isomurodov <isomurodov@gmail.com> 1660478146 +0300\ncommitter GitHub <noreply@github.com> 1660478146 +0900\n\nrevert pr for position_dodge2 (#4945)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/7ac55dd359a391ec15682724f5a6997e6b57588a",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/7ac55dd359a391ec15682724f5a6997e6b57588a",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/7ac55dd359a391ec15682724f5a6997e6b57588a/comments",
+      "author": {
+        "login": "javlon",
+        "id": 5397821,
+        "node_id": "MDQ6VXNlcjUzOTc4MjE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5397821?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/javlon",
+        "html_url": "https://github.com/javlon",
+        "followers_url": "https://api.github.com/users/javlon/followers",
+        "following_url": "https://api.github.com/users/javlon/following{/other_user}",
+        "gists_url": "https://api.github.com/users/javlon/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/javlon/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/javlon/subscriptions",
+        "organizations_url": "https://api.github.com/users/javlon/orgs",
+        "repos_url": "https://api.github.com/users/javlon/repos",
+        "events_url": "https://api.github.com/users/javlon/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/javlon/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c20e142fa1e9cf0c8f10ac71b25ab36099ed9f49",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/c20e142fa1e9cf0c8f10ac71b25ab36099ed9f49",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/c20e142fa1e9cf0c8f10ac71b25ab36099ed9f49"
+        }
+      ]
+    },
+    {
+      "sha": "c20e142fa1e9cf0c8f10ac71b25ab36099ed9f49",
+      "node_id": "C_kwDNS-7aAChjMjBlMTQyZmExZTljZjBjOGYxMGFjNzFiMjVhYjM2MDk5ZWQ5ZjQ5",
+      "commit": {
+        "author": {
+          "name": "Javlon Isomurodov",
+          "email": "isomurodov@gmail.com",
+          "date": "2022-08-13T03:24:12Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-13T03:24:12Z"
+        },
+        "message": "fix dropping minor breaks (#4941)\n\n* fix dropping minor breaks\r\n\r\n* Sort vector only once",
+        "tree": {
+          "sha": "10b95ca0a045467e4f4f4006978b9454cb4fc9ca",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/10b95ca0a045467e4f4f4006978b9454cb4fc9ca"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/c20e142fa1e9cf0c8f10ac71b25ab36099ed9f49",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi9xlcCRBK7hj4Ov3rIwAACSAIACutkD0i9PmlP/6karEFSCrD\nVSiC/5bNV/2AhwmnGbnhTiyNw/8y9dBhd1wR/HxlqJr2keQ6sw9crb5UODgWJm86\nAWJ2hgsL6/6C86CIgWZg/0lxBjx9NNMeNq3Dm2pCbKG41TWZBzzDh/EdCZrF6WHA\n0IEtUnh0VLrXHeCHOqhdAB7lDtR9sRzU9Gva+PKNvo2iw7N/b1ZDcDbCX8POZLMH\ndynV/lxjHGQ0ilhdtAUd9B9PJlzBeCDcyo71djcdWXG5OBmEBbgbLYePwUUXaXbU\n4eq+EOWpLBKkbXEAtXHzuDBoKyhDEeX3e1HkJc7Q9e3LRAHD+snevONppLD5rXA=\n=QyOj\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 10b95ca0a045467e4f4f4006978b9454cb4fc9ca\nparent 058a9bcaa159441142cb30f913da5e248da512b7\nauthor Javlon Isomurodov <isomurodov@gmail.com> 1660361052 +0300\ncommitter GitHub <noreply@github.com> 1660361052 +0900\n\nfix dropping minor breaks (#4941)\n\n* fix dropping minor breaks\r\n\r\n* Sort vector only once"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/c20e142fa1e9cf0c8f10ac71b25ab36099ed9f49",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/c20e142fa1e9cf0c8f10ac71b25ab36099ed9f49",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/c20e142fa1e9cf0c8f10ac71b25ab36099ed9f49/comments",
+      "author": {
+        "login": "javlon",
+        "id": 5397821,
+        "node_id": "MDQ6VXNlcjUzOTc4MjE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5397821?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/javlon",
+        "html_url": "https://github.com/javlon",
+        "followers_url": "https://api.github.com/users/javlon/followers",
+        "following_url": "https://api.github.com/users/javlon/following{/other_user}",
+        "gists_url": "https://api.github.com/users/javlon/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/javlon/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/javlon/subscriptions",
+        "organizations_url": "https://api.github.com/users/javlon/orgs",
+        "repos_url": "https://api.github.com/users/javlon/repos",
+        "events_url": "https://api.github.com/users/javlon/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/javlon/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "058a9bcaa159441142cb30f913da5e248da512b7",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/058a9bcaa159441142cb30f913da5e248da512b7",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/058a9bcaa159441142cb30f913da5e248da512b7"
+        }
+      ]
+    },
+    {
+      "sha": "058a9bcaa159441142cb30f913da5e248da512b7",
+      "node_id": "C_kwDNS-7aACgwNThhOWJjYWExNTk0NDExNDJjYjMwZjkxM2RhNWUyNDhkYTUxMmI3",
+      "commit": {
+        "author": {
+          "name": "Javlon Isomurodov",
+          "email": "isomurodov@gmail.com",
+          "date": "2022-08-12T09:39:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-12T09:39:37Z"
+        },
+        "message": "fix dropping of inf values from jitter plot (#4933)\n\n* fix dropping of inf values from jitter plot\r\n\r\n* add change info as a bullet in news",
+        "tree": {
+          "sha": "34c42ccaf2964f6c2287e1ba649e8b8d5fe090d0",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/34c42ccaf2964f6c2287e1ba649e8b8d5fe090d0"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/058a9bcaa159441142cb30f913da5e248da512b7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi9h/ZCRBK7hj4Ov3rIwAASd4IAKJcsF/ZupxTB1PNmUWJGAKs\nSJ9yNUcBNeYDuScTvQYZXvsizkQJZptg7z9RJMqeTYsuJqHM/ghsB7gUsc+I/5is\njR6lMhORrpH1FCgIy6VMGzcVMD5yc0jRePeU3hfuoWPDxCvKkmqNJrLnEmgCIB50\nSsFevAr8JDKjXFvOqgMz1C2mlcRGKgVgZkINKh5Qsll2tY39L/K02oC33PLbYwGV\nN7PE3RjU7Ij8s35NyGaHrkMg9R28WQXer1q2gjpxSc8fG21O6e9jj0Mr2nN5id4o\nU8fNTfkscUUqaFjbV/hbW79IWgLk08j6gUB34MHgGjNRfAiJcty8DtPSvBUpPKI=\n=uH2E\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 34c42ccaf2964f6c2287e1ba649e8b8d5fe090d0\nparent d54fd69da45485034e95d8b8d1d6dcaa60822819\nauthor Javlon Isomurodov <isomurodov@gmail.com> 1660297177 +0300\ncommitter GitHub <noreply@github.com> 1660297177 +0900\n\nfix dropping of inf values from jitter plot (#4933)\n\n* fix dropping of inf values from jitter plot\r\n\r\n* add change info as a bullet in news"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/058a9bcaa159441142cb30f913da5e248da512b7",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/058a9bcaa159441142cb30f913da5e248da512b7",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/058a9bcaa159441142cb30f913da5e248da512b7/comments",
+      "author": {
+        "login": "javlon",
+        "id": 5397821,
+        "node_id": "MDQ6VXNlcjUzOTc4MjE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5397821?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/javlon",
+        "html_url": "https://github.com/javlon",
+        "followers_url": "https://api.github.com/users/javlon/followers",
+        "following_url": "https://api.github.com/users/javlon/following{/other_user}",
+        "gists_url": "https://api.github.com/users/javlon/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/javlon/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/javlon/subscriptions",
+        "organizations_url": "https://api.github.com/users/javlon/orgs",
+        "repos_url": "https://api.github.com/users/javlon/repos",
+        "events_url": "https://api.github.com/users/javlon/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/javlon/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d54fd69da45485034e95d8b8d1d6dcaa60822819",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/d54fd69da45485034e95d8b8d1d6dcaa60822819",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/d54fd69da45485034e95d8b8d1d6dcaa60822819"
+        }
+      ]
+    },
+    {
+      "sha": "d54fd69da45485034e95d8b8d1d6dcaa60822819",
+      "node_id": "C_kwDNS-7aAChkNTRmZDY5ZGE0NTQ4NTAzNGU5NWQ4YjhkMWQ2ZGNhYTYwODIyODE5",
+      "commit": {
+        "author": {
+          "name": "Javlon Isomurodov",
+          "email": "isomurodov@gmail.com",
+          "date": "2022-08-11T13:43:51Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-11T13:43:51Z"
+        },
+        "message": "fix misplacing points in position_dodge2 (#4936)\n\nFixes bug which misplaced geom objects when it had zero width.",
+        "tree": {
+          "sha": "2ded02a1361ea8d1dd28ff6f9b887b18a44bc2cb",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/2ded02a1361ea8d1dd28ff6f9b887b18a44bc2cb"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/d54fd69da45485034e95d8b8d1d6dcaa60822819",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi9QeXCRBK7hj4Ov3rIwAAtvMIAGxr+Gi7FxEKbLv13QbxYaZD\nS9cVjq/tqvP+wynWViXkmrYxR1s1U3+8rOb1T/Lu/jn9ER4oDIPKJ7JRLeQZg7rV\nGg15oa/FWqw6+eXLhD/08NUzcMQAAtjoZSs2DIzM7r4YHdczDlbN5m9O/Y+fEEGp\nauR5UwVs949IXeif6fAkdf/MkUaMhGKi1Cy77QvWxXR0anL1TjnxL25m3ugla87i\nRHesulFPewphLYInvuaG8pFA4pdLN4jm1NyRzDzIsCeGFGiTSuSCGH1vP47Ycl2j\nizlQaNQqtWgmVnMqesP4Mn9hJiK90CyjfcUNDiUIy9Vw9wMtm7MQDI3IaCo8lh8=\n=+iwz\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2ded02a1361ea8d1dd28ff6f9b887b18a44bc2cb\nparent 7ddb6d91513d3bfff43e2cee916eb819d4772a3e\nauthor Javlon Isomurodov <isomurodov@gmail.com> 1660225431 +0300\ncommitter GitHub <noreply@github.com> 1660225431 +0900\n\nfix misplacing points in position_dodge2 (#4936)\n\nFixes bug which misplaced geom objects when it had zero width."
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/d54fd69da45485034e95d8b8d1d6dcaa60822819",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/d54fd69da45485034e95d8b8d1d6dcaa60822819",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/d54fd69da45485034e95d8b8d1d6dcaa60822819/comments",
+      "author": {
+        "login": "javlon",
+        "id": 5397821,
+        "node_id": "MDQ6VXNlcjUzOTc4MjE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5397821?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/javlon",
+        "html_url": "https://github.com/javlon",
+        "followers_url": "https://api.github.com/users/javlon/followers",
+        "following_url": "https://api.github.com/users/javlon/following{/other_user}",
+        "gists_url": "https://api.github.com/users/javlon/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/javlon/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/javlon/subscriptions",
+        "organizations_url": "https://api.github.com/users/javlon/orgs",
+        "repos_url": "https://api.github.com/users/javlon/repos",
+        "events_url": "https://api.github.com/users/javlon/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/javlon/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7ddb6d91513d3bfff43e2cee916eb819d4772a3e",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/7ddb6d91513d3bfff43e2cee916eb819d4772a3e",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/7ddb6d91513d3bfff43e2cee916eb819d4772a3e"
+        }
+      ]
+    },
+    {
+      "sha": "7ddb6d91513d3bfff43e2cee916eb819d4772a3e",
+      "node_id": "C_kwDNS-7aACg3ZGRiNmQ5MTUxM2QzYmZmZjQzZTJjZWU5MTZlYjgxOWQ0NzcyYTNl",
+      "commit": {
+        "author": {
+          "name": "Thomas Lin Pedersen",
+          "email": "thomasp85@gmail.com",
+          "date": "2022-08-02T08:46:59Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-02T08:46:59Z"
+        },
+        "message": "Fix #4927 (#4928)",
+        "tree": {
+          "sha": "03b48bb31078d44f6d018b2a2337c18c314a2613",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/03b48bb31078d44f6d018b2a2337c18c314a2613"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/7ddb6d91513d3bfff43e2cee916eb819d4772a3e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi6OSDCRBK7hj4Ov3rIwAAhc0IAEOYLh/L5nSKNSaRan+fdbcf\nYb+p+4QMBIR9uzFHOPpGFuCRoAiErNyhVxzNEi5+QQfaqoFFcelQ4gQ95cNks7cs\n/K6kYFgruhEn5+QzZkv2OCARKNl+/MLsGfkKVShsGqUrN1tfBc9ZiDV/3ttQVX85\nw/+MGATrwvU0gZVxBbdABBtEtaObcdGE1cB0cs4Aeig23W0yjoxnLrfvTNV6dMry\nKbVxuOqCnC8ff+ldbSd4F431WSe9IJiJm4JOxZie6j17B7KYvErmAYBswcB24s9D\nbepJwnzWKkzJMUOI0kZEdaRPWhivwgid3CPcgbPZqDkd0yV4bC9mzNbNHWlckvU=\n=DbS2\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 03b48bb31078d44f6d018b2a2337c18c314a2613\nparent 6a2bd14c58e68295f234fbb7436a3be8b7b6c8e7\nauthor Thomas Lin Pedersen <thomasp85@gmail.com> 1659430019 +0200\ncommitter GitHub <noreply@github.com> 1659430019 +0200\n\nFix #4927 (#4928)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/7ddb6d91513d3bfff43e2cee916eb819d4772a3e",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/7ddb6d91513d3bfff43e2cee916eb819d4772a3e",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/7ddb6d91513d3bfff43e2cee916eb819d4772a3e/comments",
+      "author": {
+        "login": "thomasp85",
+        "id": 1775316,
+        "node_id": "MDQ6VXNlcjE3NzUzMTY=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1775316?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/thomasp85",
+        "html_url": "https://github.com/thomasp85",
+        "followers_url": "https://api.github.com/users/thomasp85/followers",
+        "following_url": "https://api.github.com/users/thomasp85/following{/other_user}",
+        "gists_url": "https://api.github.com/users/thomasp85/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/thomasp85/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/thomasp85/subscriptions",
+        "organizations_url": "https://api.github.com/users/thomasp85/orgs",
+        "repos_url": "https://api.github.com/users/thomasp85/repos",
+        "events_url": "https://api.github.com/users/thomasp85/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/thomasp85/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6a2bd14c58e68295f234fbb7436a3be8b7b6c8e7",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/6a2bd14c58e68295f234fbb7436a3be8b7b6c8e7",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/6a2bd14c58e68295f234fbb7436a3be8b7b6c8e7"
+        }
+      ]
+    },
+    {
+      "sha": "6a2bd14c58e68295f234fbb7436a3be8b7b6c8e7",
+      "node_id": "C_kwDNS-7aACg2YTJiZDE0YzU4ZTY4Mjk1ZjIzNGZiYjc0MzZhM2JlOGI3YjZjOGU3",
+      "commit": {
+        "author": {
+          "name": "Thomas Lin Pedersen",
+          "email": "thomasp85@gmail.com",
+          "date": "2022-08-01T09:13:31Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-08-01T09:13:31Z"
+        },
+        "message": "check the input faceting names (#4922)",
+        "tree": {
+          "sha": "7c4559444499054d92a5c9734a64194b9f708cb5",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/7c4559444499054d92a5c9734a64194b9f708cb5"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/6a2bd14c58e68295f234fbb7436a3be8b7b6c8e7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi55k7CRBK7hj4Ov3rIwAAFqQIAFegam02HBIK6Z6kaRijcMh4\n4yxHlTv5+O/oEG1FKhCHVWp/kJgyCctpkOoGPDriT56cFvH3TBG5pJvFxXrF3LxF\n1vju69EhjV7A3FDNV1tm6q24U83kcpC9i9PFKs+ZM4YTp3mN6zcGreRyDk+tRUhU\niwJFtZ8K0Z5k0WMoQjM+VPd+rNctiADnfakWRgi1Jsa7eDN2V9SbSIYeYDi3evmO\nansve1MbbZBqHnJWJRytwCuu0ZxpN9y14sIQQ4N3Zbbs15Q7CDlL4HZHcrcxC/pW\n5dWeLbOtC6E+IuZYGLgxJzx+tim1StzT0ul3juyAeiyWDAayn2uQO13pc5NkLKY=\n=MJp6\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7c4559444499054d92a5c9734a64194b9f708cb5\nparent 10eba36a92f9a0f91a9a5a11b27f38fe7a2432ae\nauthor Thomas Lin Pedersen <thomasp85@gmail.com> 1659345211 -0400\ncommitter GitHub <noreply@github.com> 1659345211 +0200\n\ncheck the input faceting names (#4922)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/6a2bd14c58e68295f234fbb7436a3be8b7b6c8e7",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/6a2bd14c58e68295f234fbb7436a3be8b7b6c8e7",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/6a2bd14c58e68295f234fbb7436a3be8b7b6c8e7/comments",
+      "author": {
+        "login": "thomasp85",
+        "id": 1775316,
+        "node_id": "MDQ6VXNlcjE3NzUzMTY=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1775316?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/thomasp85",
+        "html_url": "https://github.com/thomasp85",
+        "followers_url": "https://api.github.com/users/thomasp85/followers",
+        "following_url": "https://api.github.com/users/thomasp85/following{/other_user}",
+        "gists_url": "https://api.github.com/users/thomasp85/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/thomasp85/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/thomasp85/subscriptions",
+        "organizations_url": "https://api.github.com/users/thomasp85/orgs",
+        "repos_url": "https://api.github.com/users/thomasp85/repos",
+        "events_url": "https://api.github.com/users/thomasp85/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/thomasp85/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "10eba36a92f9a0f91a9a5a11b27f38fe7a2432ae",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/10eba36a92f9a0f91a9a5a11b27f38fe7a2432ae",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/10eba36a92f9a0f91a9a5a11b27f38fe7a2432ae"
+        }
+      ]
+    },
+    {
+      "sha": "10eba36a92f9a0f91a9a5a11b27f38fe7a2432ae",
+      "node_id": "C_kwDNS-7aACgxMGViYTM2YTkyZjlhMGY5MWE5YTVhMTFiMjdmMzhmZTdhMjQzMmFl",
+      "commit": {
+        "author": {
+          "name": "Hiroaki Yutani",
+          "email": "yutani.ini@gmail.com",
+          "date": "2022-07-26T23:59:11Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-07-26T23:59:11Z"
+        },
+        "message": "Support guide_axis() on CoordTrans (#3972)",
+        "tree": {
+          "sha": "7b1d8849814fa041da444cdf6aa82fb51c04a644",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/7b1d8849814fa041da444cdf6aa82fb51c04a644"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/10eba36a92f9a0f91a9a5a11b27f38fe7a2432ae",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi4H/PCRBK7hj4Ov3rIwAAeRcIAKbYXOrGN+kKVsPjhh6JF4q1\nRtnw0rsm4vxR3iGu3M7bc4eXOUmZ3qccT0Hn7x5pPabvA5Q9dS3iLSniRJIKttT0\nqtcxZl8srm8HluB0ZCO4xQ19686l8JC+djbYnIDOd46EUv6Ua0/5fnedNp2vpmdZ\nXa38magwmhCKryDqhFQa7ROX/bCAeRh+2eTknRbXhzFeLXkI5wAnc2h+v8v1sBHq\n1WiBI5YYKrGFBF6dk+wCq8ui+MUDeB+xRqqodqCVYSaNM73+6yEdNTdSBnYZkiuQ\neCoFhGVsnCI8FuocwSCXu4ZuqHuDw1QFvMtfBLkZFoRfEs25C31GwBu299gB+Xs=\n=skhc\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7b1d8849814fa041da444cdf6aa82fb51c04a644\nparent c8f01c00d6c761fe3b2f6dc631a070927ed924bd\nauthor Hiroaki Yutani <yutani.ini@gmail.com> 1658879951 +0900\ncommitter GitHub <noreply@github.com> 1658879951 +0900\n\nSupport guide_axis() on CoordTrans (#3972)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/10eba36a92f9a0f91a9a5a11b27f38fe7a2432ae",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/10eba36a92f9a0f91a9a5a11b27f38fe7a2432ae",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/10eba36a92f9a0f91a9a5a11b27f38fe7a2432ae/comments",
+      "author": {
+        "login": "yutannihilation",
+        "id": 1978793,
+        "node_id": "MDQ6VXNlcjE5Nzg3OTM=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1978793?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yutannihilation",
+        "html_url": "https://github.com/yutannihilation",
+        "followers_url": "https://api.github.com/users/yutannihilation/followers",
+        "following_url": "https://api.github.com/users/yutannihilation/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yutannihilation/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yutannihilation/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yutannihilation/subscriptions",
+        "organizations_url": "https://api.github.com/users/yutannihilation/orgs",
+        "repos_url": "https://api.github.com/users/yutannihilation/repos",
+        "events_url": "https://api.github.com/users/yutannihilation/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yutannihilation/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c8f01c00d6c761fe3b2f6dc631a070927ed924bd",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/c8f01c00d6c761fe3b2f6dc631a070927ed924bd",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/c8f01c00d6c761fe3b2f6dc631a070927ed924bd"
+        }
+      ]
+    },
+    {
+      "sha": "c8f01c00d6c761fe3b2f6dc631a070927ed924bd",
+      "node_id": "C_kwDNS-7aAChjOGYwMWMwMGQ2Yzc2MWZlM2IyZjZkYzYzMWEwNzA5MjdlZDkyNGJk",
+      "commit": {
+        "author": {
+          "name": "Hiroaki Yutani",
+          "email": "yutani.ini@gmail.com",
+          "date": "2022-07-26T21:36:13Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-07-26T21:36:13Z"
+        },
+        "message": "Do not mention soft-deprecated aes_() (#4913)\n\n* Do not mention soft-deprecated aes_()\r\n\r\n* Remove more aes_()",
+        "tree": {
+          "sha": "047429993eec5f40be09c68909754353f6aca87a",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/047429993eec5f40be09c68909754353f6aca87a"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/c8f01c00d6c761fe3b2f6dc631a070927ed924bd",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi4F5NCRBK7hj4Ov3rIwAAACoIAFh/aqyNiRU0XuVRpdXDlw8t\nGDC4W+Jt43l6JbcuZPYLxmfbeeHtyXaYh69MjX/ksxb9YfHtjiZN+eXmI2efqQc8\njmK32n+uciBsLLG5A8SmYZlQ2Bgq0i0fOgB0A1kfQipJ3JxMhBPsPLBuKIBuE4CO\neCY4pkH8fU5K9HcsnfF508K1OaDN6EfVOf1iRdqvVIxCuJwBwV2/ynmnolluhXua\nyhxMs8HmFLel5nMwm5hrYiMpWgu5d5hw9bgKlVIezW5Pg2AEoH+I+c/wzjnSgo9K\nQ1UY2Thwq+4i4gksfNfijeJHUHRGkdtVY7gH5PoNrPj6Eb/ToczDkSPMzoKrTVI=\n=V7qE\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 047429993eec5f40be09c68909754353f6aca87a\nparent b0d336631c00c2f02b71e7e2a0e049e80ea83b0b\nauthor Hiroaki Yutani <yutani.ini@gmail.com> 1658871373 +0900\ncommitter GitHub <noreply@github.com> 1658871373 +0900\n\nDo not mention soft-deprecated aes_() (#4913)\n\n* Do not mention soft-deprecated aes_()\r\n\r\n* Remove more aes_()"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/c8f01c00d6c761fe3b2f6dc631a070927ed924bd",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/c8f01c00d6c761fe3b2f6dc631a070927ed924bd",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/c8f01c00d6c761fe3b2f6dc631a070927ed924bd/comments",
+      "author": {
+        "login": "yutannihilation",
+        "id": 1978793,
+        "node_id": "MDQ6VXNlcjE5Nzg3OTM=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1978793?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yutannihilation",
+        "html_url": "https://github.com/yutannihilation",
+        "followers_url": "https://api.github.com/users/yutannihilation/followers",
+        "following_url": "https://api.github.com/users/yutannihilation/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yutannihilation/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yutannihilation/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yutannihilation/subscriptions",
+        "organizations_url": "https://api.github.com/users/yutannihilation/orgs",
+        "repos_url": "https://api.github.com/users/yutannihilation/repos",
+        "events_url": "https://api.github.com/users/yutannihilation/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yutannihilation/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b0d336631c00c2f02b71e7e2a0e049e80ea83b0b",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/b0d336631c00c2f02b71e7e2a0e049e80ea83b0b",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/b0d336631c00c2f02b71e7e2a0e049e80ea83b0b"
+        }
+      ]
+    },
+    {
+      "sha": "b0d336631c00c2f02b71e7e2a0e049e80ea83b0b",
+      "node_id": "C_kwDNS-7aAChiMGQzMzY2MzFjMDBjMmYwMmI3MWU3ZTJhMGUwNDllODBlYTgzYjBi",
+      "commit": {
+        "author": {
+          "name": "Hiroaki Yutani",
+          "email": "yutani.ini@gmail.com",
+          "date": "2022-07-26T21:28:36Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-07-26T21:28:36Z"
+        },
+        "message": "Fix a warning \"... may be used in an incorrect context\" (#4902)",
+        "tree": {
+          "sha": "32f9ce1fb21b85c6b67e4bddd7b65d488ad7183a",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/32f9ce1fb21b85c6b67e4bddd7b65d488ad7183a"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/b0d336631c00c2f02b71e7e2a0e049e80ea83b0b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi4FyECRBK7hj4Ov3rIwAA3YgIAHdYQ3aPOqC1fBXrh3dl7w5E\nmuySppeY3B/DjvTNoF9UorKaucv2neFAunhDMfDIIXDB2gMGWmzOLW2sQwqsdFyG\ntV05r7NUMN6wlg3dpEgsCoB5TqGXiyCykhhFcw6ituv8WAuTJZmk2LqMMrh4F3w8\nHTvSYFoIaebzZe5J0xalGDQyP+bsbHgRCX49fry/G/ldtJVJjidDCL03r1H/jY5b\nc7n6gOOzKPhjo2w87qJYHm/PrQeS1kr5+B813KUvENJOXP+ddLwstgCPz1NWPCPP\nCpCth5Pa/LHonzb17rOAjf25KAjLcdXEw+9QFsDZ5joSHXjPhTZjxvKxg6MlWpw=\n=egur\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 32f9ce1fb21b85c6b67e4bddd7b65d488ad7183a\nparent dbc2058a827f957bb73f18da85c13b2db20daed0\nauthor Hiroaki Yutani <yutani.ini@gmail.com> 1658870916 +0900\ncommitter GitHub <noreply@github.com> 1658870916 +0900\n\nFix a warning \"... may be used in an incorrect context\" (#4902)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/b0d336631c00c2f02b71e7e2a0e049e80ea83b0b",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/b0d336631c00c2f02b71e7e2a0e049e80ea83b0b",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/b0d336631c00c2f02b71e7e2a0e049e80ea83b0b/comments",
+      "author": {
+        "login": "yutannihilation",
+        "id": 1978793,
+        "node_id": "MDQ6VXNlcjE5Nzg3OTM=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1978793?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yutannihilation",
+        "html_url": "https://github.com/yutannihilation",
+        "followers_url": "https://api.github.com/users/yutannihilation/followers",
+        "following_url": "https://api.github.com/users/yutannihilation/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yutannihilation/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yutannihilation/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yutannihilation/subscriptions",
+        "organizations_url": "https://api.github.com/users/yutannihilation/orgs",
+        "repos_url": "https://api.github.com/users/yutannihilation/repos",
+        "events_url": "https://api.github.com/users/yutannihilation/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yutannihilation/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "dbc2058a827f957bb73f18da85c13b2db20daed0",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/dbc2058a827f957bb73f18da85c13b2db20daed0",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/dbc2058a827f957bb73f18da85c13b2db20daed0"
+        }
+      ]
+    },
+    {
+      "sha": "dbc2058a827f957bb73f18da85c13b2db20daed0",
+      "node_id": "C_kwDNS-7aAChkYmMyMDU4YTgyN2Y5NTdiYjczZjE4ZGE4NWMxM2IyZGIyMGRhZWQw",
+      "commit": {
+        "author": {
+          "name": "Hiroaki Yutani",
+          "email": "yutani.ini@gmail.com",
+          "date": "2022-07-26T21:27:36Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-07-26T21:27:36Z"
+        },
+        "message": "Remove duplicated CoordPolar$render_fg() (#4904)",
+        "tree": {
+          "sha": "92b22dbd740cba96f8d26f6ad04358a7daf40f34",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/92b22dbd740cba96f8d26f6ad04358a7daf40f34"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/dbc2058a827f957bb73f18da85c13b2db20daed0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi4FxICRBK7hj4Ov3rIwAAJhwIADRhVvZraHOZhTAJ0JXkFWB3\npijezikrdBj/7QZ4/SZR69PT2xNJ7xBHjstbmSXs7PNFpM+GecgfIXmCoM7/5rXS\nHHKTNIu4faoqmzg7IgT79xSlXjYkWAt1+9HUMCvb/ryHUgK1r5UEQGudidau+rx/\nWCHFyBy1ZEBYLNWVmRwxkwUfaXC/8dWnogPHRu7Pr5LZaTMEN2f+j7CLuYiA41wF\nfRNuvlf3QHXGCeFWLubWJR7U1k0THkTqeDYlLKBlg732yv+oBNdrWCEOiN+fyifM\n9deJ85pI2EQjlgG/iket7uskpNVNLsoYTv3WPPs4sUBZ7bJzCE8D7obdGgtnpGU=\n=GZoe\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 92b22dbd740cba96f8d26f6ad04358a7daf40f34\nparent 1dc2b3589d0f140f92effa483df976db62213c16\nauthor Hiroaki Yutani <yutani.ini@gmail.com> 1658870856 +0900\ncommitter GitHub <noreply@github.com> 1658870856 +0900\n\nRemove duplicated CoordPolar$render_fg() (#4904)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/dbc2058a827f957bb73f18da85c13b2db20daed0",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/dbc2058a827f957bb73f18da85c13b2db20daed0",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/dbc2058a827f957bb73f18da85c13b2db20daed0/comments",
+      "author": {
+        "login": "yutannihilation",
+        "id": 1978793,
+        "node_id": "MDQ6VXNlcjE5Nzg3OTM=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1978793?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yutannihilation",
+        "html_url": "https://github.com/yutannihilation",
+        "followers_url": "https://api.github.com/users/yutannihilation/followers",
+        "following_url": "https://api.github.com/users/yutannihilation/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yutannihilation/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yutannihilation/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yutannihilation/subscriptions",
+        "organizations_url": "https://api.github.com/users/yutannihilation/orgs",
+        "repos_url": "https://api.github.com/users/yutannihilation/repos",
+        "events_url": "https://api.github.com/users/yutannihilation/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yutannihilation/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1dc2b3589d0f140f92effa483df976db62213c16",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/1dc2b3589d0f140f92effa483df976db62213c16",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/1dc2b3589d0f140f92effa483df976db62213c16"
+        }
+      ]
+    },
+    {
+      "sha": "1dc2b3589d0f140f92effa483df976db62213c16",
+      "node_id": "C_kwDNS-7aACgxZGMyYjM1ODlkMGYxNDBmOTJlZmZhNDgzZGY5NzZkYjYyMjEzYzE2",
+      "commit": {
+        "author": {
+          "name": "Hiroaki Yutani",
+          "email": "yutani.ini@gmail.com",
+          "date": "2022-07-26T21:27:08Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-07-26T21:27:08Z"
+        },
+        "message": "Fix a failing test on geom_sf() (#4915)",
+        "tree": {
+          "sha": "b6684d53cde41ca4a48d8c595e9c2e746218be1f",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/b6684d53cde41ca4a48d8c595e9c2e746218be1f"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/1dc2b3589d0f140f92effa483df976db62213c16",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi4FwsCRBK7hj4Ov3rIwAAspEIACf/8YEDZA69VZwbHEQl5GQO\nVdaNAtZl4FBMVEa8jbsR/w27XDTsaNg6uyP8DsmIh5t6uhuJ3XVYwxTcU4z+pXoI\nvlhzvEl1QBtb8ivsDR5NT/oQGDzeChaQEsMBHIB4freCmU0nY8r3hMp9gTMA8I6q\nDprO9ygJLWE/l2+KX2rD6snVPFJ5dKWvhc/O19OHWIG/cXsJNynNqgrfpcQvkxzv\nWLOllAX8sy/uOcrIQDkAKh93caomZxL5EIhDUapL1vdyFRVCm7S+d7uwjfcf378i\n8GR2uAYZtXd9aS0IDkR6Wi1Rr7840tlAeu6+gjfvGokPDOtto/KzAIpWojJbg84=\n=VZL0\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b6684d53cde41ca4a48d8c595e9c2e746218be1f\nparent f6b383369b34b46a0d7f18ae784726594b6b1fc2\nauthor Hiroaki Yutani <yutani.ini@gmail.com> 1658870828 +0900\ncommitter GitHub <noreply@github.com> 1658870828 +0900\n\nFix a failing test on geom_sf() (#4915)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/1dc2b3589d0f140f92effa483df976db62213c16",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/1dc2b3589d0f140f92effa483df976db62213c16",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/1dc2b3589d0f140f92effa483df976db62213c16/comments",
+      "author": {
+        "login": "yutannihilation",
+        "id": 1978793,
+        "node_id": "MDQ6VXNlcjE5Nzg3OTM=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1978793?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yutannihilation",
+        "html_url": "https://github.com/yutannihilation",
+        "followers_url": "https://api.github.com/users/yutannihilation/followers",
+        "following_url": "https://api.github.com/users/yutannihilation/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yutannihilation/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yutannihilation/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yutannihilation/subscriptions",
+        "organizations_url": "https://api.github.com/users/yutannihilation/orgs",
+        "repos_url": "https://api.github.com/users/yutannihilation/repos",
+        "events_url": "https://api.github.com/users/yutannihilation/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yutannihilation/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f6b383369b34b46a0d7f18ae784726594b6b1fc2",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/f6b383369b34b46a0d7f18ae784726594b6b1fc2",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/f6b383369b34b46a0d7f18ae784726594b6b1fc2"
+        }
+      ]
+    },
+    {
+      "sha": "f6b383369b34b46a0d7f18ae784726594b6b1fc2",
+      "node_id": "C_kwDNS-7aAChmNmIzODMzNjliMzRiNDZhMGQ3ZjE4YWU3ODQ3MjY1OTRiNmIxZmMy",
+      "commit": {
+        "author": {
+          "name": "Evgeni Chasnovski",
+          "email": "evgeni.chasnovski@gmail.com",
+          "date": "2022-07-26T20:51:57Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-07-26T20:51:57Z"
+        },
+        "message": "Add `bounds` argument to `geom_density()` (#4013)\n\n* Draft update `StatDensity` to have `bounds` argument.\r\n\r\n* Refresh `bounds` usage in `StatDensity`.\r\n\r\n* Handle data points outside of `bounds`.\r\n\r\n* Update documentation with `bounds` example.\r\n\r\n* Use `cli::cli_warn()` instead of `warn()`.\r\n\r\n* Add tests for `stat_density()`.\r\n\r\n* Update tests for `stat_density()`.\r\n\r\n* Update 'NEWS.md'.",
+        "tree": {
+          "sha": "254614a4e760e35c2838f5375a70651d876698c3",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/254614a4e760e35c2838f5375a70651d876698c3"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/f6b383369b34b46a0d7f18ae784726594b6b1fc2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi4FPtCRBK7hj4Ov3rIwAA7ngIAI12DfWglrKvvREFLAFbJSco\nyS9GQqZ4JhZtV525B5vD66hLj8yvANTxVX7JDB0ona0fqAf0qQl1fl3qxbu1CA88\nVxrlpCgiGP/L+Sf51Ni9RVl+vtaYNmszvc2rA6bo1J8GZw6usCQezsgFFaLZBhJc\ngGYBNBlHYJwNuoazRYCCVkf+jRfImRiR+Tg3Bh0FZe/dogew/CYUZR/lWast7lH+\nfgUes3sxZmixc6QAe3Y45zB+njZYo5xsEw82NHKTaeYP/K6P8CmrUBFVq6wZDibe\nQoNr0GEOsu9VAOX4CzJailLDZNpCZWD6SIMkOJiz2QRQJNe6XahDnpmRdv3vOlY=\n=It+o\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 254614a4e760e35c2838f5375a70651d876698c3\nparent a979ffd26cdb456d54e2671c2eed16c65bc878b7\nauthor Evgeni Chasnovski <evgeni.chasnovski@gmail.com> 1658868717 +0300\ncommitter GitHub <noreply@github.com> 1658868717 -0500\n\nAdd `bounds` argument to `geom_density()` (#4013)\n\n* Draft update `StatDensity` to have `bounds` argument.\r\n\r\n* Refresh `bounds` usage in `StatDensity`.\r\n\r\n* Handle data points outside of `bounds`.\r\n\r\n* Update documentation with `bounds` example.\r\n\r\n* Use `cli::cli_warn()` instead of `warn()`.\r\n\r\n* Add tests for `stat_density()`.\r\n\r\n* Update tests for `stat_density()`.\r\n\r\n* Update 'NEWS.md'."
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/f6b383369b34b46a0d7f18ae784726594b6b1fc2",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/f6b383369b34b46a0d7f18ae784726594b6b1fc2",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/f6b383369b34b46a0d7f18ae784726594b6b1fc2/comments",
+      "author": {
+        "login": "echasnovski",
+        "id": 24854248,
+        "node_id": "MDQ6VXNlcjI0ODU0MjQ4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24854248?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/echasnovski",
+        "html_url": "https://github.com/echasnovski",
+        "followers_url": "https://api.github.com/users/echasnovski/followers",
+        "following_url": "https://api.github.com/users/echasnovski/following{/other_user}",
+        "gists_url": "https://api.github.com/users/echasnovski/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/echasnovski/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/echasnovski/subscriptions",
+        "organizations_url": "https://api.github.com/users/echasnovski/orgs",
+        "repos_url": "https://api.github.com/users/echasnovski/repos",
+        "events_url": "https://api.github.com/users/echasnovski/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/echasnovski/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a979ffd26cdb456d54e2671c2eed16c65bc878b7",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/a979ffd26cdb456d54e2671c2eed16c65bc878b7",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/a979ffd26cdb456d54e2671c2eed16c65bc878b7"
+        }
+      ]
+    },
+    {
+      "sha": "a979ffd26cdb456d54e2671c2eed16c65bc878b7",
+      "node_id": "C_kwDNS-7aAChhOTc5ZmZkMjZjZGI0NTZkNTRlMjY3MWMyZWVkMTZjNjViYzg3OGI3",
+      "commit": {
+        "author": {
+          "name": "Michael Chirico",
+          "email": "michaelchirico4@gmail.com",
+          "date": "2022-07-09T02:35:13Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-07-09T02:35:13Z"
+        },
+        "message": "Use local_tempfile() to create local file (#4903)\n\n* Use local_tempfile() to create local file\r\n\r\n* lines= argument requries withr 2.5.0",
+        "tree": {
+          "sha": "83e47f7a33447caf77caffff46b7db62e6c9579a",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/83e47f7a33447caf77caffff46b7db62e6c9579a"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/a979ffd26cdb456d54e2671c2eed16c65bc878b7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiyOlhCRBK7hj4Ov3rIwAAIrMIAI54Tzlr68fmX4hxvy+RN08L\n3MGp5cYScyFmF/+b6HFPPE6kAZWlkhH3iWYe9ikKgIByPO/GxKAzl4466nEZRUO/\nr0OdGVZ8Mo3K9dLSLG9ZrCsoHUQlwh7FXKn1kkxeWdsDDbk39XV3Yn+KE80wMH8f\n2R+SXLLR0qPldqB2KKuKdhUr5FeV49Uh8UI9sWflKdadsKuF0fTGMYJBGOeWzY1A\n3J3xbBYsnDhhtq3Pi//fAp7aGwvYjF++Mp2JpTkkj3GgH42xUQnNuqt6C1G2eulq\nXzMH9GsY6uql6aoq1Zpz323XG2dj0yEJNhNx0S7ymuO5XBju92XK09s0tCYauYk=\n=XoBc\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 83e47f7a33447caf77caffff46b7db62e6c9579a\nparent 60f8654ba6c3395e8a2a641f04621865d1107509\nauthor Michael Chirico <michaelchirico4@gmail.com> 1657334113 -0700\ncommitter GitHub <noreply@github.com> 1657334113 +0900\n\nUse local_tempfile() to create local file (#4903)\n\n* Use local_tempfile() to create local file\r\n\r\n* lines= argument requries withr 2.5.0"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/a979ffd26cdb456d54e2671c2eed16c65bc878b7",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/a979ffd26cdb456d54e2671c2eed16c65bc878b7",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/a979ffd26cdb456d54e2671c2eed16c65bc878b7/comments",
+      "author": {
+        "login": "MichaelChirico",
+        "id": 7606389,
+        "node_id": "MDQ6VXNlcjc2MDYzODk=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7606389?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/MichaelChirico",
+        "html_url": "https://github.com/MichaelChirico",
+        "followers_url": "https://api.github.com/users/MichaelChirico/followers",
+        "following_url": "https://api.github.com/users/MichaelChirico/following{/other_user}",
+        "gists_url": "https://api.github.com/users/MichaelChirico/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/MichaelChirico/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/MichaelChirico/subscriptions",
+        "organizations_url": "https://api.github.com/users/MichaelChirico/orgs",
+        "repos_url": "https://api.github.com/users/MichaelChirico/repos",
+        "events_url": "https://api.github.com/users/MichaelChirico/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/MichaelChirico/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "60f8654ba6c3395e8a2a641f04621865d1107509",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/60f8654ba6c3395e8a2a641f04621865d1107509",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/60f8654ba6c3395e8a2a641f04621865d1107509"
+        }
+      ]
+    },
+    {
+      "sha": "60f8654ba6c3395e8a2a641f04621865d1107509",
+      "node_id": "C_kwDNS-7aACg2MGY4NjU0YmE2YzMzOTVlOGEyYTY0MWYwNDYyMTg2NWQxMTA3NTA5",
+      "commit": {
+        "author": {
+          "name": "Claus Wilke",
+          "email": "wilke@austin.utexas.edu",
+          "date": "2022-07-07T16:29:26Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-07-07T16:29:26Z"
+        },
+        "message": "Check for dropped aesthetics (#4866)\n\n* Check for dropped aesthetics and issue a warning if aesthetics are dropped that shouldn't be. Fixes #3250.\r\n\r\n* update documentation",
+        "tree": {
+          "sha": "2fff919e30f0e3a690ebc596f0d1b7e35d6b5109",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/2fff919e30f0e3a690ebc596f0d1b7e35d6b5109"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/60f8654ba6c3395e8a2a641f04621865d1107509",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJixwnmCRBK7hj4Ov3rIwAAacAIAH/AQSlwQUVe/VyFMH34LimI\nbhezRcfXe/wVJGwoqs95mGTp1MhBae15/W4TjePo5wcsC6Z1nY/kUO7r66NZgLMf\n9NRtLoX9B4fsrMaS8cOPtAK3cZ3MVpgFAMMOdldB2gIK3y84w1z612y4kaV+pgvV\nItPhgVVDN4Cmh4Vqtkg6ADI2/NlJiFZVogw4Enu/Bl8l/HUcTk6eDVTU2CX+9zmb\nUrbFt37Aam57bBrTwBKxihwxPxZ3rHQsrpUtjO6wzUiJyD01+Gfk9ZMzDQ+eOyrS\nlDgxWtfkF7eIHD+EHh4xZaqYqu8tlBB6mBKI1ThgJy8p5NVJrtzpLoNeHIjwXwY=\n=m+rW\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2fff919e30f0e3a690ebc596f0d1b7e35d6b5109\nparent 7484bd7ae767d832c28a26f957e4ae1e7e33ece2\nauthor Claus Wilke <wilke@austin.utexas.edu> 1657211366 -0500\ncommitter GitHub <noreply@github.com> 1657211366 -0500\n\nCheck for dropped aesthetics (#4866)\n\n* Check for dropped aesthetics and issue a warning if aesthetics are dropped that shouldn't be. Fixes #3250.\r\n\r\n* update documentation"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/60f8654ba6c3395e8a2a641f04621865d1107509",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/60f8654ba6c3395e8a2a641f04621865d1107509",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/60f8654ba6c3395e8a2a641f04621865d1107509/comments",
+      "author": {
+        "login": "clauswilke",
+        "id": 4210929,
+        "node_id": "MDQ6VXNlcjQyMTA5Mjk=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4210929?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/clauswilke",
+        "html_url": "https://github.com/clauswilke",
+        "followers_url": "https://api.github.com/users/clauswilke/followers",
+        "following_url": "https://api.github.com/users/clauswilke/following{/other_user}",
+        "gists_url": "https://api.github.com/users/clauswilke/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/clauswilke/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/clauswilke/subscriptions",
+        "organizations_url": "https://api.github.com/users/clauswilke/orgs",
+        "repos_url": "https://api.github.com/users/clauswilke/repos",
+        "events_url": "https://api.github.com/users/clauswilke/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/clauswilke/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7484bd7ae767d832c28a26f957e4ae1e7e33ece2",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/7484bd7ae767d832c28a26f957e4ae1e7e33ece2",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/7484bd7ae767d832c28a26f957e4ae1e7e33ece2"
+        }
+      ]
+    },
+    {
+      "sha": "7484bd7ae767d832c28a26f957e4ae1e7e33ece2",
+      "node_id": "C_kwDNS-7aACg3NDg0YmQ3YWU3NjdkODMyYzI4YTI2Zjk1N2U0YWUxZTdlMzNlY2Uy",
+      "commit": {
+        "author": {
+          "name": "Thomas Lin Pedersen",
+          "email": "thomasp85@gmail.com",
+          "date": "2022-07-07T07:30:02Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-07-07T07:30:02Z"
+        },
+        "message": "Stat for aligning lines before stacking (#4889)",
+        "tree": {
+          "sha": "81bc2aa19eb360b1f1f8e5afcc1c5071caf95f54",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/81bc2aa19eb360b1f1f8e5afcc1c5071caf95f54"
+        },
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/7484bd7ae767d832c28a26f957e4ae1e7e33ece2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJixot6CRBK7hj4Ov3rIwAAIkoIACYP8OWvA5L9pon+cTrVgh1q\n0CXiCdRqx6WgtctwzJKUzwEqpnVsLwJdp2s9KYH2J8XlwAGy8pd9b1zsD9STn9Om\nPEkUfj2I945WUCieoTscwmVEM3fnRxWH0gTJ+cK/V0yPZaVPYSX8QZ9vXmlVl4Gb\n4d6F3tXiPnSrrZMua9TLLwwFqi9UcdUhbyTtQGYmP4An5nodwOidAbDJ91fBquSg\n38IGbd2CSVJCS2mRA9D3xZrW47wXi0FgUorIAE9vKhc/sphmMvpji13gVdY2AIHR\nfzFyZi7q+X4LbJOKwZlLMjH9JR5fqp5nNu2C8q76ORVmLEnewSSltlaSRX/hTsI=\n=w7d1\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 81bc2aa19eb360b1f1f8e5afcc1c5071caf95f54\nparent 7ebb6bd9d664f58794078afdb5a8ff71d5edf96d\nauthor Thomas Lin Pedersen <thomasp85@gmail.com> 1657179002 +0200\ncommitter GitHub <noreply@github.com> 1657179002 +0200\n\nStat for aligning lines before stacking (#4889)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/7484bd7ae767d832c28a26f957e4ae1e7e33ece2",
+      "html_url": "https://github.com/tidyverse/ggplot2/commit/7484bd7ae767d832c28a26f957e4ae1e7e33ece2",
+      "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/7484bd7ae767d832c28a26f957e4ae1e7e33ece2/comments",
+      "author": {
+        "login": "thomasp85",
+        "id": 1775316,
+        "node_id": "MDQ6VXNlcjE3NzUzMTY=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1775316?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/thomasp85",
+        "html_url": "https://github.com/thomasp85",
+        "followers_url": "https://api.github.com/users/thomasp85/followers",
+        "following_url": "https://api.github.com/users/thomasp85/following{/other_user}",
+        "gists_url": "https://api.github.com/users/thomasp85/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/thomasp85/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/thomasp85/subscriptions",
+        "organizations_url": "https://api.github.com/users/thomasp85/orgs",
+        "repos_url": "https://api.github.com/users/thomasp85/repos",
+        "events_url": "https://api.github.com/users/thomasp85/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/thomasp85/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7ebb6bd9d664f58794078afdb5a8ff71d5edf96d",
+          "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/7ebb6bd9d664f58794078afdb5a8ff71d5edf96d",
+          "html_url": "https://github.com/tidyverse/ggplot2/commit/7ebb6bd9d664f58794078afdb5a8ff71d5edf96d"
+        }
+      ]
+    }
+  ]
