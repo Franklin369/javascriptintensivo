@@ -1,0 +1,150 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap";
+
+* ,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #1f2029;
+  min-height: 100%;
+  background-size: cover;
+}
+.title {
+  color: #f0db4f;
+  width: 100%;
+  text-align: center;
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  & > * {
+    margin: 0.2em 0.9em;
+  }
+}
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  line-height: 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 10px;
+  margin-left: 10px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+[type="radio"]:checked:hover + label:before,
+[type="radio"]:not(:checked):hover + label:before,
+[type="radio"]:checked:hover + label:after,
+[type="radio"]:not(:checked):hover + label:after {
+  opacity: 0.7;
+}
+
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+  background-color: transparent;
+
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+  content: "";
+  width: calc(100% - 8px);
+  border-radius: 2px;
+  height: 22px;
+  background-color: #e74c3c;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+  opacity: 0.8;
+
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.radio-gens:checked + label:before,
+.radio-gens:not(:checked) + label:before {
+  border: 3px solid #e74c3c;
+}
+.radio-gens:checked + label:after,
+.radio-gens:not(:checked) + label:after {
+  background-color: #e74c3c;
+}
+.container {
+  padding: 1em;
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  li {
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    color: #37393b;
+    &:hover {
+      border: 6px solid #f67c55;
+      border-radius: 15px;
+      background: linear-gradient(45deg, #f67c55, #f67c55);
+      background: linear-gradient(45deg, #f23b00, #fcd3c6);
+      color: #fff;
+    }
+    .pokeimage{
+      width:100px;
+      &:hover{
+        // filter: blur(20px);
+         transform: scale(1.2);
+         transition: 0.5s;
+         margin: 18px;
+         background-color: white;
+       
+         box-shadow: 20px 20px 40px #FAF3C4;
+         background-color: white;
+         border-radius: 50%;
+         padding: 20px;
+        
+        }
+    }
+  }
+}
