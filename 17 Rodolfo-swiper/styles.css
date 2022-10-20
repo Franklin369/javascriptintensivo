@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    background-color: #9147FF;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 320px;
+  background-color: #fdfcff;
+  overflow: hidden;
+  border-radius: 8px;
+  color: rgb(9, 9, 9);
+}
+.picture {
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+  }
+  .picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+
+  .swiper-pagination-bullet{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    transition: all .3s;
+   
+
+  }
+  .swiper-pagination-bullet-active{
+    background: #f8f7f9;
+    width: 30px;
+    height: 10px;
+     border-radius: .5rem;
+  }
+  
+  
