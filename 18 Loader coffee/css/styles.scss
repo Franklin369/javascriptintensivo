@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.loading-wrapp {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #e3b948;
+  z-index: 1000;
+  .inner {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 45%;
+    width: 4.25rem;
+    height: 4.5rem;
+    border: 4px solid #6a6a6a;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background: white;
+    &:after {
+      content: "";
+      position: absolute;
+      right: -28px;
+      top: 4px;
+      display: block;
+      width: 20px;
+      height: 40px;
+      border: 4px solid #6a6a6a;
+      border-bottom-right-radius: 66px 66px;
+      border-top-right-radius: 48px 26px;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: 100;
+      top: 9px;
+      left: 6px;
+      width: 17px;
+      height: 70%;
+      background-color: rgba(200, 200, 213, 0.6);
+      border-bottom-left-radius: 40px 120px;
+      border-top-left-radius: 40px 120px;
+    }
+
+    .fill {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      border-bottom-right-radius: 8px;
+      border-bottom-left-radius: 8px;
+      background:#562c21;
+      animation: load 2.59s infinite;
+      
+      &:after{
+        content:'';
+        left: 0;
+        display: block;
+        position: absolute;
+        top: 0rem;
+        height: 1px;
+        background-color: #c69684;
+        width: 100%;
+        animation: liquido 2.59s infinite;
+      }
+    }
+  }
+}
+@keyframes load{
+    0%{top:4.5rem}
+    70%{top:1.125rem}
+    90% {top: 0}
+    95% {top: 0}
+    100% {top: 4.5rem}
+}
+@keyframes liquido{
+    0% {opacity: 0;top: -.9rem}
+    22% {opacity: 0}
+    25% {opacity: 0}
+    35% {height: 3px}
+    55% {height: 4px}
+    60% {height: 5px}
+    96% {height: 5.5px}
+    100% {height: 0}
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }

@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.loading-wrapp {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #e3b948;
+  z-index: 1000;
+}
+.loading-wrapp .inner {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 45%;
+  width: 4.25rem;
+  height: 4.5rem;
+  border: 4px solid #6a6a6a;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background: white;
+}
+.loading-wrapp .inner:after {
+  content: "";
+  position: absolute;
+  right: -28px;
+  top: 4px;
+  display: block;
+  width: 20px;
+  height: 40px;
+  border: 4px solid #6a6a6a;
+  border-bottom-right-radius: 66px 66px;
+  border-top-right-radius: 48px 26px;
+}
+.loading-wrapp .inner:before {
+  content: "";
+  position: absolute;
+  z-index: 100;
+  top: 9px;
+  left: 6px;
+  width: 17px;
+  height: 70%;
+  background-color: rgba(200, 200, 213, 0.6);
+  border-bottom-left-radius: 40px 120px;
+  border-top-left-radius: 40px 120px;
+}
+.loading-wrapp .inner .fill {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background: #562c21;
+  -webkit-animation: load 2.59s infinite;
+          animation: load 2.59s infinite;
+}
+.loading-wrapp .inner .fill:after {
+  content: "";
+  left: 0;
+  display: block;
+  position: absolute;
+  top: 0rem;
+  height: 1px;
+  background-color: #c69684;
+  width: 100%;
+  -webkit-animation: liquido 2.59s infinite;
+          animation: liquido 2.59s infinite;
+}
+
+@-webkit-keyframes load {
+  0% {
+    top: 4.5rem;
+  }
+  70% {
+    top: 1.125rem;
+  }
+  90% {
+    top: 0;
+  }
+  95% {
+    top: 0;
+  }
+  100% {
+    top: 4.5rem;
+  }
+}
+
+@keyframes load {
+  0% {
+    top: 4.5rem;
+  }
+  70% {
+    top: 1.125rem;
+  }
+  90% {
+    top: 0;
+  }
+  95% {
+    top: 0;
+  }
+  100% {
+    top: 4.5rem;
+  }
+}
+@-webkit-keyframes liquido {
+  0% {
+    opacity: 0;
+    top: -0.9rem;
+  }
+  22% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  35% {
+    height: 3px;
+  }
+  55% {
+    height: 4px;
+  }
+  60% {
+    height: 5px;
+  }
+  96% {
+    height: 5.5px;
+  }
+  100% {
+    height: 0;
+  }
+}
+@keyframes liquido {
+  0% {
+    opacity: 0;
+    top: -0.9rem;
+  }
+  22% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  35% {
+    height: 3px;
+  }
+  55% {
+    height: 4px;
+  }
+  60% {
+    height: 5px;
+  }
+  96% {
+    height: 5.5px;
+  }
+  100% {
+    height: 0;
+  }
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}/*# sourceMappingURL=styles.css.map */
